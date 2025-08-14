@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreBanner/> should render correctly Store Banner 1`] = `
+.c0 {
+  background-color: #6300AA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white !important;
+  padding: 0.6rem 0 0.6rem 0;
+}
+
+.c0 p {
+  width: 100%;
+  font-size: rem;
+}
+
+.c0 img {
+  padding: 0 1em;
+}
+
+<div
+  className="c0"
+>
+  <img
+    alt="logo"
+    height="44"
+    src="logo"
+  />
+  <p>
+    Storename
+  </p>
+</div>
+`;

@@ -1,0 +1,581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StorePage/> should render correctly StorePage 1`] = `
+.c16 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c16:active {
+  background-color: #336D89;
+}
+
+.c1 {
+  background-color: #6300AA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white !important;
+  padding: 0.6rem 0 0.6rem 0;
+}
+
+.c1 p {
+  width: 100%;
+  font-size: rem;
+}
+
+.c1 img {
+  padding: 0 1em;
+}
+
+.c8 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.c9 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.c11 {
+  color: black;
+  font-size: em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: calc(100% - 4em);
+}
+
+.c11 li {
+  padding-left: 0.25em;
+  margin-bottom: 1.5em;
+}
+
+.c11 li::marker {
+  content: '✓';
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 1.2rem;
+  margin: 0em 0em 0.5em 0em;
+}
+
+.c13 del {
+  color: red;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 26%;
+}
+
+.c5 {
+  text-align: center;
+  background-color: #c8c2E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  font-size: undefinedem;
+  border: solid 2px;
+  border-color: #773481;
+  border-radius: 9px;
+  width: 350px;
+ 
+  color: black;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  margin: 0;
+  margin: 0em 1em 1em 1em;
+}
+
+.c5 .c7 {
+  color: black;
+}
+
+.c5 .c12 {
+  color: black;
+}
+
+.c5 .c15 {
+  width: 280px;
+}
+
+.c5 .c10 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 hr {
+  width: 180px;
+}
+
+.c17 {
+  text-align: center;
+  background-color: #c2E8c8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  font-size: undefinedem;
+  border: solid 2px;
+  border-color: #773481;
+  border-radius: 9px;
+  width: 350px;
+  height: 290px;
+  color: black;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  margin: 0;
+  margin: 0em 1em 1em 1em;
+}
+
+.c17 .c7 {
+  color: black;
+}
+
+.c17 .c12 {
+  color: black;
+}
+
+.c17 .c15 {
+  width: 280px;
+}
+
+.c17 .c10 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c17 hr {
+  width: 180px;
+}
+
+.c18 {
+  text-align: center;
+  background-color: #E8c2c8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  font-size: undefinedem;
+  border: solid 2px;
+  border-color: #773481;
+  border-radius: 9px;
+  width: 350px;
+  height: 290px;
+  color: black;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  margin: 0;
+  margin: 0em 1em 1em 1em;
+}
+
+.c18 .c7 {
+  color: black;
+}
+
+.c18 .c12 {
+  color: black;
+}
+
+.c18 .c15 {
+  width: 280px;
+}
+
+.c18 .c10 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c18 hr {
+  width: 180px;
+}
+
+.c6 {
+  padding: 16px 1em 24px 1em;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  background: #333333;
+}
+
+.c3 .c4 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3em;
+  background: #333333;
+}
+
+.c0 .c2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.c0 .introText {
+  font-size: 1.2em;
+  max-width: 50em;
+}
+
+.c0 .footerText {
+  font-size: 1.2em;
+  max-width: 50em;
+}
+
+@media screen and (max-width:600px) {
+  .c5 {
+    margin: 0 0 1em 0;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c17 {
+    margin: 0 0 1em 0;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c18 {
+    margin: 0 0 1em 0;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .c3 .c4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <img
+      alt="logo"
+      height="44"
+      src="test banner-logo"
+    />
+    <p>
+      test banner-name
+    </p>
+  </div>
+  <div
+    className="c2 c3"
+  >
+    <div
+      className="c4 c5"
+      role="article"
+    >
+      <div
+        className="c6"
+      >
+        <div
+          className="c7 c8"
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Basic",
+              }
+            }
+          />
+        </div>
+        <div
+          className="c7 c9"
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "For beginners",
+              }
+            }
+          />
+        </div>
+        <ul
+          className="c10 c11"
+        >
+          Feature 1
+        </ul>
+        <hr />
+        <div
+          className="c12 c13"
+        >
+          £9.99
+        </div>
+        <div
+          className="c14"
+        >
+          <button
+            className="c15 c16"
+            onClick={[Function]}
+          >
+            Choose Plan
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c4 c17"
+      role="article"
+    >
+      <div
+        className="c6"
+      >
+        <div
+          className="c7 c8"
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Better",
+              }
+            }
+          />
+        </div>
+        <div
+          className="c7 c9"
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "For intermediates",
+              }
+            }
+          />
+        </div>
+        <ul
+          className="c10 c11"
+        >
+          Feature 1
+        </ul>
+        <hr />
+        <div
+          className="c12 c13"
+        >
+          £29.99
+           per year
+        </div>
+        <div
+          className="c14"
+        >
+          <button
+            className="c15 c16"
+            onClick={[Function]}
+          >
+            Choose Plan
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c4 c18"
+      role="article"
+    >
+      <div
+        className="c6"
+      >
+        <div
+          className="c7 c8"
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Premium",
+              }
+            }
+          />
+        </div>
+        <div
+          className="c7 c9"
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "For professionals",
+              }
+            }
+          />
+        </div>
+        <ul
+          className="c10 c11"
+        >
+          Feature 1
+        </ul>
+        <hr />
+        <div
+          className="c12 c13"
+        >
+          £39.99
+        </div>
+        <div
+          className="c14"
+        >
+          <button
+            className="c15 c16"
+            onClick={[Function]}
+          >
+            Choose Plan
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="c15 c16"
+    onClick={[Function]}
+  >
+    I Don't Want Any Of These Options
+  </button>
+  <br />
+  <br />
+</div>
+`;

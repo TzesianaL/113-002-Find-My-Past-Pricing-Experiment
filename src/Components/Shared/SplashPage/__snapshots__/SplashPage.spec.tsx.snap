@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SplashPage/> should render correctly SplashPage 1`] = `
+.c1 {
+  background-color: #6300AA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white !important;
+  padding: 0.6rem 0 0.6rem 0;
+}
+
+.c1 p {
+  width: 100%;
+  font-size: rem;
+}
+
+.c1 img {
+  padding: 0 1em;
+}
+
+.c3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: BoldVf !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.c7 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c7:active {
+  background-color: #336D89;
+}
+
+.c6 {
+  background-color: #6300AA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: white !important;
+  font-size: rem;
+  padding: 16px 1em 24px 1em;
+}
+
+.c5 {
+  display: grid;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 100%;
+}
+
+.c5 img {
+  width: 100%;
+}
+
+.c4 {
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-template-columns: 40% 40%;
+  row-gap: 3%;
+  -webkit-column-gap: 3%;
+  column-gap: 3%;
+  padding-bottom: 3%;
+  max-width: 1440px;
+}
+
+.c0 {
+  display: grid;
+  margin-bottom: 10em;
+  justify-items: center;
+  background: #333333;
+}
+
+.c0 .c2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@media screen and (max-width:675px) {
+  .c4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <img
+      alt="logo"
+      height="44"
+      src="tets storelogo"
+    />
+    <p>
+      test store name
+    </p>
+  </div>
+  <div
+    className="c2 c3"
+  >
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "test page title",
+        }
+      }
+    />
+  </div>
+  <div
+    className="c4"
+  >
+    <div
+      className="c5"
+    >
+      <img
+        alt="splashimg"
+        src="cardHeader.png"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c2 c3"
+      >
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Vodafone",
+            }
+          }
+        />
+      </div>
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<b>Minutes: 300</b><br/> Texts: 100 Data: 20GB",
+          }
+        }
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c2 c3"
+      >
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Vodafone",
+            }
+          }
+        />
+      </div>
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<b>Minutes: 300</b><br/> Texts: 100 Data: 20GB",
+          }
+        }
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c2 c3"
+      >
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Vodafone",
+            }
+          }
+        />
+      </div>
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<b>Minutes: 300</b><br/> Texts: 100 Data: 20GB",
+          }
+        }
+      />
+    </div>
+  </div>
+  <button
+    className="c7"
+    onClick={[Function]}
+  >
+    test button text
+  </button>
+  <br />
+  <br />
+</div>
+`;

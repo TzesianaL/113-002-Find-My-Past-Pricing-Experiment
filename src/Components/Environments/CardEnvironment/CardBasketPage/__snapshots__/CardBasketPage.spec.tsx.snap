@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasketPage/> should render correctly 1`] = `
+<DocumentFragment>
+  .c11 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c11:active {
+  background-color: #336D89;
+}
+
+.c1 {
+  background-color: #6300AA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white !important;
+  padding: 0.6rem 0 0.6rem 0;
+}
+
+.c1 p {
+  width: 100%;
+  font-size: rem;
+}
+
+.c1 img {
+  padding: 0 1em;
+}
+
+.c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 3em;
+}
+
+.c0 .introText {
+  font-size: 1em;
+  max-width: 50em;
+}
+
+.c0 .footerText {
+  font-size: 1em;
+  max-width: 50em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+  margin-top: 3em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .cardWrapper {
+  width: 75%;
+}
+
+.c10 {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c10 button {
+  margin: 0.5em 1em;
+}
+
+.c7 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.c8 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.c5 {
+  background-color: #D8D2E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px 1em 24px 1em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid 2px;
+  border-color: #000000;
+  border-radius: 1.5em;
+  max-width: 100%;
+  color: #000000;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  margin: 0em 1em 1em 1em;
+  font-size: 0.8em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000000;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1em 0;
+  margin: 1em 0;
+  border: 1px solid black;
+  max-width: 50em;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c9 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  font-weight: bold;
+  color: #000000;
+}
+
+.c9 div {
+  margin: 0;
+  padding: 0em 1em 0em 1em;
+  text-align: right;
+}
+
+.c9 h3 {
+  margin: 0;
+  padding: 1em;
+  text-align: right;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 img {
+  height: 36px;
+  padding: 0 0.25em;
+}
+
+@media (max-width:600px) {
+  .c2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-top: 3em;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <p>
+        Store Name
+      </p>
+    </div>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h1>
+          Your Basket
+        </h1>
+        <div
+          class="c4"
+        >
+          <div
+            class="c5"
+          >
+            <div
+              class="c6"
+            >
+              <div
+                class="c7"
+              >
+                <div>
+                  test card
+                </div>
+              </div>
+            </div>
+            <div
+              class="c8"
+            >
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="c9"
+        >
+          <h3>
+            Total Price:
+            <span>
+              £5.00
+            </span>
+          </h3>
+        </div>
+      </div>
+      <div
+        class="c10"
+      >
+        <button
+          class="c11"
+        >
+          Empty Basket
+        </button>
+        <button
+          class="c11"
+        >
+          Check Out
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

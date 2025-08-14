@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Vodafone';
+  src: url('./fonts/Vodafone-Rg-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Vodafone';
+  src: url('./fonts/Vodafone-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body {
+  font-family: Vodafone;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'BoldVf';
+  src:
+    local('BoldVf'),
+    url('./fonts/Vodafone-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}

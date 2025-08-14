@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script type="module">
+      import { Buffer } from 'buffer'
+      import process from 'process'
+      window.Buffer = Buffer
+      window.process = process
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!--Data from EFS-->
+    <div
+      id="efsData"
+      data-show-output="true"
+      data-show-product-range-only="false"
+      data-show-standalone-basket="false"
+      data-selected-experiment-path="0"
+      data-debug-select-condition="true"
+      data-environment="Card"
+      data-use-random-condition="false"
+      data-condition="2"
+      data-output-condition="v_"
+      data-output-selected-item-id="v_123"
+      data-output-item-order-shown="v_"
+      data-output-number-of-items-shown="v_"
+      data-output-skip-card-page="v_"
+      data-output-reached-basket="v_"
+      data-output-empty-basket="v_"
+      data-output-time-spent-per-page="v_"
+      data-output-action-log="v_"
+      data-output-redux-debug="v_"
+      data-output-selected-addons="v_"
+      data-output-pcw-selected-product="v_"
+      data-output-pcw-more-info-clicked="v_"
+      data-output-pcw-sorted-product-list="v_"
+      data-output-answers="v_"
+      data-output-wifi-walk="v_"
+      data-output-speed-boost="v_"
+      data-output-total-monthly-payment="v_"
+      data-output-card-speed="v_"
+      data-output-bundle="v_"
+    ></div>
+
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script
+      type="module"
+      src="/src/index-standalone-product-range.tsx"
+    ></script>
+  </body>
+</html>

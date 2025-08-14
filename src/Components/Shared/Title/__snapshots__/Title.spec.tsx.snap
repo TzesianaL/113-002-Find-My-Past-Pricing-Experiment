@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title /> should render correctly 1`] = `
+.c0 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: BoldVf !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+<div
+  className="c0"
+>
+  Test Title
+</div>
+`;

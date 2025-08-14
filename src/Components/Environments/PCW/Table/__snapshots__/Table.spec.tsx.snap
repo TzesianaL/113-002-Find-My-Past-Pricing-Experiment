@@ -1,0 +1,5226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table/> should render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c17 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #778899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c17 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            Brighter Future 2021
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Fixed
+          </div>
+          <div
+            class="c5"
+          >
+            Tariff Type
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            £35.00
+          </div>
+          <div
+            class="c5"
+          >
+            early exit fee
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            25 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £20.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£50.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        5G
+      </div>
+      <div
+        class="c17"
+      >
+        Free minutes
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c17 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #778899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c18 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: pink;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c17 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c18 {
+    height: 40px;
+  }
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            Brighter Future 2021 v2
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Variable
+          </div>
+          <div
+            class="c5"
+          >
+            Tariff Type
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            £55.00
+          </div>
+          <div
+            class="c5"
+          >
+            early exit fee
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            48 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+            <li
+              class="c8"
+            >
+              EU Roaming
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £15.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£53.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        5G
+      </div>
+      <div
+        class="c17"
+      >
+        Free minutes
+      </div>
+      <div
+        class="c18"
+      >
+        100GB Free
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            YT ULtraFast 500
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            500Mbps
+          </div>
+          <div
+            class="c5"
+          >
+            Average Download Speed
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Unlimited
+          </div>
+          <div
+            class="c5"
+          >
+            downloaded
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            24 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £30.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£20.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    />
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #778899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            YT UltraFast 500
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Unlimited
+          </div>
+          <div
+            class="c5"
+          >
+            download
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            £35.00
+          </div>
+          <div
+            class="c5"
+          >
+            early exit fee
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            24 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              No Credit Check
+            </li>
+            <li
+              class="c8"
+            >
+              5G
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £90.39
+          </div>
+          <div
+            class="c5"
+          >
+            (no setup fee)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        Free minutes
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            YT GigaFast 10,000
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            100 Gbps
+          </div>
+          <div
+            class="c5"
+          >
+            Average Download Speed
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Unlimited
+          </div>
+          <div
+            class="c5"
+          >
+            download
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            10 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £100.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£90.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        Provider of the year
+      </div>
+      <div
+        class="c16"
+      >
+         £50 Amazon Voucher
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            YT Basics
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            10 GB
+          </div>
+          <div
+            class="c5"
+          >
+            Data
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Unlimited
+          </div>
+          <div
+            class="c5"
+          >
+            Minutes & Text
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            12 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              EU roaminf
+            </li>
+            <li
+              class="c8"
+            >
+              5G
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £8.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£10.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+         £50 Amazon Voucher
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            YT Ukktimate 5G SIM
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Unlimited
+          </div>
+          <div
+            class="c5"
+          >
+            Minutes & Text
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            £15.00
+          </div>
+          <div
+            class="c5"
+          >
+            early exit fee
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            10 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £10.00
+          </div>
+          <div
+            class="c5"
+          >
+            (£5.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        Provider of the year
+      </div>
+      <div
+        class="c16"
+      >
+         £50 Amazon Voucher
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            Brighter Future 2021
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            YT Advanced
+          </div>
+          <div
+            class="c5"
+          >
+            Tariff Type
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            £35.00
+          </div>
+          <div
+            class="c5"
+          >
+            early exit fee
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            30 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £80.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£20.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        Provider of the year
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            YT 
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            300GB
+          </div>
+          <div
+            class="c5"
+          >
+            Tariff Type
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            £35.00
+          </div>
+          <div
+            class="c5"
+          >
+            early exit fee
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            25 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £20.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£50.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        Provider of the year
+      </div>
+      <div
+        class="c16"
+      >
+         £50 Amazon Voucher
+      </div>
+    </div>
+  </div>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000000;
+  background: #DCDCDC;
+  min-width: 100px;
+  height: 90px;
+  border: 1px solid;
+  border-color: lightgray;
+  word-wrap: break-word;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.c5 {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.c3 {
+  width: 30px;
+  margin-top: 0.5rem;
+}
+
+.c4 {
+  max-width: 100px;
+  padding: 0px 4px 0px 4px;
+  grid-column: 1 / span 2;
+}
+
+.c7 {
+  font-size: x-small;
+  font-weight: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+
+.c8 {
+  margin: 0px 6px 0px 0px;
+}
+
+.c13 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c13:active {
+  background-color: #336D89;
+}
+
+.c11 .c12 {
+  font-size: 0.95em;
+  white-space: nowrap;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.c14 {
+  font-size: x-small;
+  color: #000000;
+  font-weight: normal;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4px 0px 4px;
+  font-size: x-small;
+  text-align: left;
+}
+
+.c9 img {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.3em;
+}
+
+.c15 {
+  width: calc(100% - 2px);
+  border: 1px solid;
+  border-top: none;
+  border-color: #e0e0e0;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 38px;
+}
+
+.c16 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #CC8899;
+  padding: 0.1em;
+  margin: 2px 4px 2px 0;
+  float: left;
+  height: 28px;
+  font-size: small;
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    display: grid;
+    position: relative;
+  }
+
+  .c0 .mobileLayout {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .c2 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c6 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c10 {
+    min-width: 180px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    width: 33px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 {
+    width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .c11 .c12 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .c14 {
+    padding: 0.7em 1em;
+    background: #c0c0c0;
+    color: white;
+    width: 94%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c15 {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c16 {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media (max-width:600px) {
+  .c1 {
+    display: grid;
+    position: abslute;
+  }
+
+  .c1 span:first-of-type {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:nth-last-child(2) {
+    grid-column: 1 / span 2;
+  }
+
+  .c1 span:last-of-type {
+    grid-column: 1 / span 2;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        <div
+          class="c2"
+        >
+          <img
+            alt=""
+            class="c3"
+            src="lifepro-prime1.png"
+          />
+          <div
+            class="c4"
+          >
+            Brighter Future 2021
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            Fixed
+          </div>
+          <div
+            class="c5"
+          >
+            Tariff Type
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            £35.00
+          </div>
+          <div
+            class="c5"
+          >
+            early exit fee
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div>
+            25 months
+          </div>
+          <div
+            class="c5"
+          >
+            contract
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c6"
+        >
+          <ul
+            class="c7"
+          >
+            <li
+              class="c8"
+            >
+              £75 Amazon Voucher
+            </li>
+            <li
+              class="c8"
+            >
+              Ucompare Exclusive
+            </li>
+          </ul>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c9"
+          >
+            <img
+              alt="icon"
+              src="lifepro-prime1.png"
+            />
+            <div
+              class="c5"
+            >
+              early exit fee
+            </div>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c10"
+        >
+          <div>
+            + £20.39
+          </div>
+          <div
+            class="c5"
+          >
+            (£50.38 pm)
+          </div>
+        </div>
+      </span>
+      <span>
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <button
+              class="c12 c13"
+            >
+              Choose Plan
+            </button>
+            <div
+              class="c14"
+            >
+              Plan Info
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        Provider of the year
+      </div>
+      <div
+        class="c16"
+      >
+         £50 Amazon Voucher
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

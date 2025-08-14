@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddonGroup/> should render AddonGroup correctly 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 img {
+  margin: 1rem;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: BoldVf !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.c5 {
+  color: black;
+  font-size: em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: calc(100% - 4em);
+}
+
+.c5 li {
+  padding-left: 0.25em;
+  margin-bottom: 1.5em;
+}
+
+.c5 li::marker {
+  content: '✓';
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  color: #ffffff;
+  background-color: #003D59;
+  cursor: pointer;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+
+.c7:active {
+  background-color: #336D89;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 1.2rem;
+  font-family: BoldVf;
+  margin: 0em 0em 0.5em 0em;
+}
+
+.c6 del {
+  color: red;
+}
+
+.c6 .pricePeriodPlaceHolder {
+  font-size: small;
+  color: grey;
+  line-height: 23px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+          style="flex: 0 0 20em; align-self: flex-start; align-items: center;"
+        >
+          <div
+            class="c4"
+          >
+            Basic
+          </div>
+        </div>
+        <ul
+          class="c5"
+          style="flex: 1 0 15em; max-width: 20em;"
+        >
+          <div>
+            Feature 1
+          </div>
+        </ul>
+        <div
+          class="c6"
+          style="flex: 0 0 auto; margin: 0px 2em;"
+        >
+          <span
+            class="pricePeriodPlaceHolder"
+          >
+             
+          </span>
+            
+          <strong>
+            £9.99
+          </strong>
+             
+          <span
+            class="pricePeriodPlaceHolder"
+          >
+            a month
+          </span>
+           
+        </div>
+        <button
+          class="c7"
+          style="flex: 0 0 7em; margin: 0px 2em;"
+        >
+          Add
+        </button>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+          style="flex: 0 0 20em; align-self: flex-start; align-items: center;"
+        >
+          <div
+            class="c4"
+          >
+            Better
+          </div>
+        </div>
+        <ul
+          class="c5"
+          style="flex: 1 0 15em; max-width: 20em;"
+        >
+          <div>
+            Feature 1
+          </div>
+          <div>
+            Feature 2
+          </div>
+        </ul>
+        <div
+          class="c6"
+          style="flex: 0 0 auto; margin: 0px 2em;"
+        >
+          <span
+            class="pricePeriodPlaceHolder"
+          >
+             
+          </span>
+            
+          <strong>
+            £29.99
+          </strong>
+             
+          <span
+            class="pricePeriodPlaceHolder"
+          >
+            a month
+          </span>
+           
+        </div>
+        <button
+          class="c7"
+          style="flex: 0 0 7em; margin: 0px 2em;"
+        >
+          Add
+        </button>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+          style="flex: 0 0 20em; align-self: flex-start; align-items: center;"
+        >
+          <div
+            class="c4"
+          >
+            Premium
+          </div>
+        </div>
+        <ul
+          class="c5"
+          style="flex: 1 0 15em; max-width: 20em;"
+        >
+          <div>
+            Feature 1
+          </div>
+          <div>
+            Feature 2
+          </div>
+          <div>
+            Feature 3
+          </div>
+          <div>
+            Feature 4
+          </div>
+        </ul>
+        <div
+          class="c6"
+          style="flex: 0 0 auto; margin: 0px 2em;"
+        >
+          <span
+            class="pricePeriodPlaceHolder"
+          >
+             
+          </span>
+            
+          <strong>
+            £39.99
+          </strong>
+             
+          <span
+            class="pricePeriodPlaceHolder"
+          >
+            a month
+          </span>
+           
+        </div>
+        <button
+          class="c7"
+          style="flex: 0 0 7em; margin: 0px 2em;"
+        >
+          Add
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

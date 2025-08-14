@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Features /> should render correctly 1`] = `
+.c0 {
+  color: black;
+  font-size: em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: calc(100% - 4em);
+}
+
+.c0 li {
+  padding-left: 0.25em;
+  margin-bottom: 1.5em;
+}
+
+.c0 li::marker {
+  content: '✓';
+}
+
+<ul
+  className="c0"
+>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "feat1",
+      }
+    }
+  />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "feat2",
+      }
+    }
+  />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "feat3",
+      }
+    }
+  />
+</ul>
+`;

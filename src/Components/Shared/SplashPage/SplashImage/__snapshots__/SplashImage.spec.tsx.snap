@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SplashImage/> should renderer correctly SplashText 1`] = `
+.c0 {
+  display: grid;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 100%;
+}
+
+.c0 img {
+  width: 100%;
+}
+
+<div
+  className="c0"
+>
+  <img
+    alt="splashimg"
+    src="test source"
+  />
+</div>
+`;

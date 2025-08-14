@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SplashText/> should render correctly SplashText 1`] = `
+.c1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: BoldVf !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.c0 {
+  background-color: #6300AA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: white !important;
+  font-size: rem;
+  padding: 16px 1em 24px 1em;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "title",
+        }
+      }
+    />
+  </div>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": " text title",
+      }
+    }
+  />
+</div>
+`;

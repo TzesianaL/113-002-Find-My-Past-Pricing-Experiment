@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Price /> should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 1.2rem;
+  font-family: BoldVf;
+  margin: 0em 0em 0.5em 0em;
+}
+
+.c0 del {
+  color: red;
+}
+
+.c0 .pricePeriodPlaceHolder {
+  font-size: small;
+  color: grey;
+  line-height: 23px;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="pricePeriodPlaceHolder"
+  >
+     
+  </span>
+    
+  <strong>
+    £100.00
+  </strong>
+    
+   
+  <span
+    className="pricePeriodPlaceHolder"
+  >
+    a month
+  </span>
+   
+</div>
+`;
