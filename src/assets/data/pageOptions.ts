@@ -1,6 +1,4 @@
 import { AddonPageOptions, BasketPageOptions, StorePageOptions } from 'types'
-import storePageImage from 'images/logos/storePageImage.png'
-import mobileImage from 'images/logos/Mobile.png'
 
 export const baseStorePageOptions: StorePageOptions = {
   introText: `
@@ -23,10 +21,6 @@ export const baseStorePageOptions: StorePageOptions = {
         }
       }
     </style>
-    <div class="responsive-image-container">
-      <img class="desktop-image" src="${storePageImage}" alt="Store page image"/>
-      <img class="mobile-image" src="${mobileImage}" alt="Mobile store page image"/>
-    </div>
   `,
   hidePrice: false,
   footerText: `<p style="font-size: 12px; color: #666; padding-top: 12px; text-align: center;">Annual Price Increase: During your minimum period, the monthly cost will increase each year on 1 April by £1.80 for Pay monthly plans with Airtime/Data, and £3 for Home Broadband plans.</p>`,

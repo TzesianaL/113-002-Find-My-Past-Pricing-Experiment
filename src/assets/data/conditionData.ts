@@ -1,31 +1,13 @@
 import { ConditionType } from 'types/reduxData'
 import { baseSplashScreen } from './splashscreenData'
-import {
-  baseStoreItems,
-  scenario2_Items,
-  scenario3_Items,
-  scenario4_Items,
-  scenario5_Items,
-  scenario6_Items,
-  scenario7_Items,
-  scenario8_Items,
-} from './cardItems'
+import { baseStoreItems } from './cardItems'
 import {
   baseAddonPageOptions,
   baseBasketPageOptions,
   baseStorePageOptions,
 } from './pageOptions'
-import { baseAddonData, scenario2_addons } from './addons'
-import {
-  scenario3_speedItems,
-  scenario2_speedItems,
-  speedItemsBaseline,
-  scenario4_speedItems,
-  scenario5_speedItems,
-  scenario6_speedItems,
-  scenario7_speedItems,
-  scenario8_speedItems,
-} from './speedItems'
+import { baseAddonData } from './addons'
+import { speedItemsBaseline } from './speedItems'
 import { cardAddonLayout } from 'StandardLayouts/AddonLayouts'
 
 export const conditionData: { [key: number]: ConditionType } = {
@@ -35,83 +17,6 @@ export const conditionData: { [key: number]: ConditionType } = {
     splash: baseSplashScreen,
     storeItems: baseStoreItems,
     speedItems: speedItemsBaseline,
-    addonPageOptions: baseAddonPageOptions,
-    basketPageOptions: baseBasketPageOptions,
-    storeAddons: baseAddonData,
-    addonLayout: cardAddonLayout,
-  },
-  2: {
-    conditionName: 'Scenario 2 (Sky)',
-    storePageOptions: baseStorePageOptions,
-    splash: baseSplashScreen,
-    storeItems: scenario2_Items,
-    speedItems: scenario2_speedItems,
-    addonPageOptions: baseAddonPageOptions,
-    basketPageOptions: baseBasketPageOptions,
-    storeAddons: scenario2_addons,
-    addonLayout: cardAddonLayout,
-  },
-  3: {
-    conditionName: 'Scenario 3',
-    storePageOptions: baseStorePageOptions,
-    splash: baseSplashScreen,
-    storeItems: scenario3_Items,
-    speedItems: scenario3_speedItems,
-    addonPageOptions: baseAddonPageOptions,
-    basketPageOptions: baseBasketPageOptions,
-    storeAddons: baseAddonData,
-    addonLayout: cardAddonLayout,
-  },
-  4: {
-    conditionName: 'Scenario 4',
-    storePageOptions: baseStorePageOptions,
-    splash: baseSplashScreen,
-    storeItems: scenario4_Items,
-    speedItems: scenario4_speedItems,
-    addonPageOptions: baseAddonPageOptions,
-    basketPageOptions: baseBasketPageOptions,
-    storeAddons: baseAddonData,
-    addonLayout: cardAddonLayout,
-  },
-  5: {
-    conditionName: 'Scenario 5',
-    storePageOptions: baseStorePageOptions,
-    splash: baseSplashScreen,
-    storeItems: scenario5_Items,
-    speedItems: scenario5_speedItems,
-    addonPageOptions: baseAddonPageOptions,
-    basketPageOptions: baseBasketPageOptions,
-    storeAddons: baseAddonData,
-    addonLayout: cardAddonLayout,
-  },
-  6: {
-    conditionName: 'Scenario 6',
-    storePageOptions: baseStorePageOptions,
-    splash: baseSplashScreen,
-    storeItems: scenario6_Items,
-    speedItems: scenario6_speedItems,
-    addonPageOptions: baseAddonPageOptions,
-    basketPageOptions: baseBasketPageOptions,
-    storeAddons: baseAddonData,
-    addonLayout: cardAddonLayout,
-  },
-  7: {
-    conditionName: 'Scenario 7',
-    storePageOptions: baseStorePageOptions,
-    splash: baseSplashScreen,
-    storeItems: scenario7_Items,
-    speedItems: scenario7_speedItems,
-    addonPageOptions: baseAddonPageOptions,
-    basketPageOptions: baseBasketPageOptions,
-    storeAddons: baseAddonData,
-    addonLayout: cardAddonLayout,
-  },
-  8: {
-    conditionName: 'Scenario 8',
-    storePageOptions: baseStorePageOptions,
-    splash: baseSplashScreen,
-    storeItems: scenario8_Items,
-    speedItems: scenario8_speedItems,
     addonPageOptions: baseAddonPageOptions,
     basketPageOptions: baseBasketPageOptions,
     storeAddons: baseAddonData,

@@ -1,14 +1,11 @@
 import { SplashItem } from 'types'
-// import splashImageSrc from 'images/logos/splashImage.png'
-import splashRouterSrc from 'images/splash-router.png'
-import splashAwardsSrc from 'images/splash-awards.png'
 
 export const baseSplashScreen: { title: string; items: SplashItem[] } = {
   title: 'Smith’s Broadband Offers You',
   items: [
     {
       id: '1',
-      src: splashRouterSrc,
+      src: 'splashRouterSrc',
     },
     {
       id: '2',
@@ -35,7 +32,7 @@ export const baseSplashScreen: { title: string; items: SplashItem[] } = {
       title: 'Award-winning Home Broadband',
       paragraph: `
         <div style="display: flex; justify-content: center; align-items: center;">
-          <img style="width: 100%" src="${splashAwardsSrc}" alt="Multiple awards" />
+          <img style="width: 100%" src="${'splashAwardsSrc'}" alt="Multiple awards" />
         </div>
        `,
     },

@@ -1,8 +1,4 @@
 import { CardItem } from 'types'
-import logo1 from 'images/logos/lifepro-prime1.png'
-import logo2 from 'images/logos/accidentpro-prime1.png'
-import logo3 from 'images/logos/disability-prime1.png'
-import logo4 from 'images/logos/criticalillnesspro-prime1.png'
 
 export const AiaCardItems: CardItem[] = [
   {
@@ -19,7 +15,7 @@ export const AiaCardItems: CardItem[] = [
       'PREMIUM FREEZE: Gives you the flexibility to keep your premium the same each year by reducing your sum insured',
     ],
     cardColor: '#F1F6F8',
-    headerImage: logo1,
+    headerImage: 'logo1',
   },
   {
     id: 'ITEM_1',
@@ -34,7 +30,7 @@ export const AiaCardItems: CardItem[] = [
       'WAIVER OF PREMIUM: Should you become totally or partially disabled and receiving a claim payment, you will not need to pay premiums for the Income Protection benefit',
       'REHABILITATION EXPENSES: Covers the cost (up to a maximum of 12 times your insured monthly benefit) for you to attend a rehabilitation program to get you back to work',
     ],
-    headerImage: logo2,
+    headerImage: 'logo2',
   },
   {
     id: 'ITEM_2',
@@ -49,7 +45,7 @@ export const AiaCardItems: CardItem[] = [
       'FINANCIAL PLANNING REIMBURSEMENT: Covers any financial advice costs up to $3,000 to assist with managing or investing your claim payment for death or terminal illness',
       'PREMIUM FREEZE: Gives you the flexibility to keep your premium the same each year by reducing your sum insured',
     ],
-    headerImage: logo3,
+    headerImage: 'logo3',
   },
   {
     id: 'ITEM_3',
@@ -64,6 +60,6 @@ export const AiaCardItems: CardItem[] = [
       'FINANCIAL PLANNING REIMBURSEMENT: Covers any financial advice costs up to $3,000 to assist with managing or investing your claim payment for death or terminal illness',
       'COMPLIMENTARY FAMILY PROTECTION: Provides a lump sum benefit of $20,000 should one of your dependant children experience a health event or be diagnosed with a serious illness',
     ],
-    headerImage: logo4,
+    headerImage: 'logo4',
   },
 ]

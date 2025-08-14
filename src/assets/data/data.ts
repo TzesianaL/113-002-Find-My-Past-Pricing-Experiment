@@ -1,4 +1,4 @@
-import smithLogo from 'images/smith-logo.png'
+import logo from 'images/logos/FMP_logo.png'
 import { DataFileType } from 'types'
 import { cardAddonLayout } from 'StandardLayouts/AddonLayouts'
 import { baseSplashScreen } from './splashscreenData'
@@ -19,8 +19,8 @@ const data: DataFileType = {
   conditions: conditionData,
 
   // All the keys here are for the baseline and will be used if they aren't defined in the condition
-  storeLogoSrc: smithLogo,
-  storeName: ` Smith's Store`,
+  storeLogoSrc: logo,
+  storeName: ``,
   splash: baseSplashScreen,
   storeItems: baseStoreItems,
   speedItems: speedItemsBaseline,
