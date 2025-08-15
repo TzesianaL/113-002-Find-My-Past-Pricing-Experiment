@@ -22,7 +22,7 @@ export const SplashWrapper = styled.div`
   display: grid;
   margin-bottom: 10em;
   justify-items: center;
-  background: #f2f2f2;
+  background: #e5e5e5;
 
   ${TitleStyle} {
     padding-top: 2em;

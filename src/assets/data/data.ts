@@ -52,9 +52,9 @@ const data: DataFileType = {
       },
     },
     button: {
-      color: 'white',
-      backgroundColor: '#005000',
-      activeBackgroundColor: 'white',
+      color: '#242048',
+      backgroundColor: 'white',
+      activeBackgroundColor: 'gray',
       borderRadius: '5px',
     },
 
@@ -63,7 +63,7 @@ const data: DataFileType = {
     subtitleFontSize: 1,
     priceFontSize: 1.2,
 
-    backgroundColor: '#f2f2f2',
+    backgroundColor: '#E5E5E5',
     color: 'black',
     titleColor: 'black',
     subtitleColor: 'black',
