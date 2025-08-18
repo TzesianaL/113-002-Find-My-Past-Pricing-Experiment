@@ -18,6 +18,7 @@ export interface CardItem {
   id: string
   title: string
   subtitle: string
+  subtitle2?: string
   price: number
   currency?: string
   priceString?: string

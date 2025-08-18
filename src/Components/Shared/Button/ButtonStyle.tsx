@@ -33,9 +33,10 @@ export const ButtonStyle = styled.button`
   border: 0px;
   border-radius: ${(props) => props.theme.button?.borderRadius || '6px'};
   padding: 0.7em 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 
   &:active {
     background-color: ${(props) =>
-      props.theme.button?.activeBackgroundColor || '#336D89'};
+      props.theme.button?.activeBackgroundColor || 'lightgray'};
   }
 `

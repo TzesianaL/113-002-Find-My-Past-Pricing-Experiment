@@ -55,7 +55,8 @@ const data: DataFileType = {
       color: '#242048',
       backgroundColor: 'white',
       activeBackgroundColor: 'gray',
-      borderRadius: '5px',
+      width: '200px',
+      borderRadius: '10px',
     },
 
     fontSize: 1,

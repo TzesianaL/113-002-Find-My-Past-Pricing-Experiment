@@ -67,7 +67,13 @@ const SplashPage: FC<SplashPageProps> = ({
           )
         })}
       </SplashPageStyle>
-      <Button onClick={onClick}>{buttonText}</Button>
+      <Button
+        style={{ border: '1px solid #242048', fontWeight: 'bold' }}
+        onClick={onClick}
+      >
+        {buttonText}
+      </Button>
+      <br />
     </SplashWrapper>
   )
 }

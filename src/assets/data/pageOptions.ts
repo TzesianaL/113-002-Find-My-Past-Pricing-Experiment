@@ -1,27 +1,7 @@
 import { AddonPageOptions, BasketPageOptions, StorePageOptions } from 'types'
 
 export const baseStorePageOptions: StorePageOptions = {
-  introText: `
-    <style>
-      .responsive-image-container .desktop-image {
-        display: block;
-        width: 566px;
-      }
-      .responsive-image-container .mobile-image {
-        display: none;
-        width: 100%;
-        max-width: 320px;
-      }
-      @media (max-width: 768px) {
-        .responsive-image-container .desktop-image {
-          display: none;
-        }
-        .responsive-image-container .mobile-image {
-          display: block;
-        }
-      }
-    </style>
-  `,
+  introText: `<p style="font-size: 25px; font-weight: bold;">Choose your subscription</p>`,
   hidePrice: false,
   footerText: `<p style="font-size: 12px; color: #666; padding-top: 12px; text-align: center;">Annual Price Increase: During your minimum period, the monthly cost will increase each year on 1 April by £1.80 for Pay monthly plans with Airtime/Data, and £3 for Home Broadband plans.</p>`,
 }

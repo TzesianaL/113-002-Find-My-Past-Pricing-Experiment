@@ -5,9 +5,8 @@ export const baseStoreItems: CardItem[] = [
   {
     id: 'ITEM_1_73',
     title: 'Full Fibre 73',
-    headerImage: 'FF150',
     subtitle: 'Our Power Hub router included',
-    highlightedText: 'Basic',
+    subtitle2: `<p style="font-size: 12px; color: red;">Includes unlimited data</p>`,
     price: 24,
     upfrontPrice: 0,
     priceString: '',

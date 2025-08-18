@@ -17,6 +17,7 @@ import CardHighlight from '../CardHighlight/CardHighlight'
 export interface CardProps {
   title: string
   subtitle: string
+  subtitle2?: string
   price: number
   currency?: string
   priceString?: string
@@ -40,6 +41,7 @@ export interface CardProps {
 const Card: FC<CardProps> = ({
   title,
   subtitle,
+  subtitle2,
   price,
   currency,
   upfrontPrice,
@@ -69,16 +71,9 @@ const Card: FC<CardProps> = ({
         <Title style={{ width: '100%', textAlign: 'left' }}>
           <div dangerouslySetInnerHTML={{ __html: title }} />
         </Title>
-        <Title
-          subtitle
-          style={{
-            height: selectedCondition === 2 ? '55px' : '86px',
-            width: '100%',
-            textAlign: 'left',
-          }}
-        >
-          <div dangerouslySetInnerHTML={{ __html: subtitle }} />
-        </Title>
+        <div dangerouslySetInnerHTML={{ __html: subtitle }} />
+        <div dangerouslySetInnerHTML={{ __html: subtitle2 }} />
+
         <Features features={features} />
         <hr style={{ width: '100%' }} />
         {!hidePrice && (
