@@ -19,10 +19,14 @@ export interface CardItem {
   title: string
   subtitle: string
   subtitle2?: string
-  price: number
+  price: {
+    monthly: number
+    quarterly?: number
+    annualy?: number
+  }
   currency?: string
   priceString?: string
-  features: string[]
+  features: string
   cardColor?: string
   highlightedText?: string
   headerImage?: string

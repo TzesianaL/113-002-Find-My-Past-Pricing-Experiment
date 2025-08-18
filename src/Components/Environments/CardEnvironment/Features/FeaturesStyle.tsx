@@ -16,7 +16,7 @@ export const FeaturesStyle = styled.ul`
   width: calc(100% - 4em);
   li {
     padding-left: 0.25em;
-    margin-bottom: 1.5em;
+    // margin-bottom: 1.5em;
 
     ::marker {
       content: '${(props) => props.theme.featureBullet || '✓'}';

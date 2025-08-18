@@ -35,8 +35,6 @@ const Price: FC<PriceProps> = ({
 }) => {
   const cost = useSelector(getCost)
 
-  const selectedCondition = useSelector(getSelectedCondition)
-
   // let priceToShow = '0'
 
   // if (price !== undefined) {
@@ -46,9 +44,9 @@ const Price: FC<PriceProps> = ({
   //   }).format(price)
   // }
 
-  // if (price === undefined && priceString === undefined) {
-  //   throw Error('Price component was used without any price')
-  // }
+  if (price === undefined) {
+    throw Error('Price component was used without any price')
+  }
 
   if (priceString === undefined && price !== undefined && price !== null) {
     const oldPriceOutput = new Intl.NumberFormat('en-US', {

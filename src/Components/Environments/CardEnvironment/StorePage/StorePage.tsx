@@ -1,41 +1,12 @@
 import Button from 'Components/Shared/Button/Button'
-import {
-  MutexButton,
-  MutexButtonGroup,
-} from 'Components/Shared/Mutex/MutexButton'
 import { useScrollToTop } from 'hooks/useScrollToTop'
-import React, {
-  FC,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  useLayoutEffect,
-} from 'react'
+import React, { FC, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import {
-  getAllAddons,
-  getSelectedCondition,
-} from 'redux/reducers/dataStore/dataStore.selectors'
-import {
-  addItemToBasket,
-  addSpeedItemToBasket,
-} from 'redux/reducers/logicStore/logicStore'
-import { getCost } from 'redux/reducers/logicStore/logicStore.selectors'
 import { addOutput, OutputTypes } from 'redux/reducers/output/outputSlice'
 import type { CardItem, SpeedCardItem } from 'types'
-import { ContractDuration, isContractDuration } from 'types'
-import { StorePageAddonLayout } from '../../../../StandardLayouts/AddonLayouts'
 import StoreBanner from '../../../Shared/StoreBanner/StoreBanner'
 import CardGroup from '../CardGroup/CardGroup'
-import SpeedCardGroup from '../SpeedCardGroup/SpeedCardGroup'
 import { StorePageStyle } from './StorePageStyle'
-
-enum ConfigurationStep {
-  CONTRACT_LENGTH = 'CONTRACT_LENGTH',
-  SPEED_SELECTION = 'SPEED_SELECTION',
-  PLAN_SELECTION = 'PLAN_SELECTION',
-}
 
 export interface StorePageProps {
   bannerName?: string
@@ -69,7 +40,6 @@ const StorePage: FC<StorePageProps> = ({
   cancelButtonText,
 }) => {
   const dispatch = useDispatch()
-
   const [planSelected, setPlanSelected] = useState<string | undefined>(
     undefined
   )
@@ -117,7 +87,6 @@ const StorePage: FC<StorePageProps> = ({
           onSelect={onSelect}
           handleCardClick={handlePlanClick}
           purchaseButtonText={purchaseButtonText}
-          // avgScore={sumOfWeights}
         />
       </>
       {footerText && (

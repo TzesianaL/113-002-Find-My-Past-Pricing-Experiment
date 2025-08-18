@@ -31,11 +31,11 @@ export const CardStyle = styled.div<{
   font-size: ${(props) => `${props.theme.card?.fontSize}em` || '1em'};
   border: ${(props) => props.theme.card?.border || 'solid 2px'};
   border-color: ${(props) =>
-    props.isSelected ? '#00b050' : props.theme.card?.borderColor || '#black'};
+    props.isSelected ? '#00b050' : props.theme.card?.borderColor || '#F5F0EB'};
   border-radius: 0.3em;
   border-top-left-radius: 0em;
   width: ${(props) => props.theme.card?.width || '340px'};
-  height: ${(props) => props.newWidth || '420px'};
+  height: ${(props) => props.newWidth || '920px'};
   color: ${(props) =>
     props.theme.card?.color || props.theme.colors?.primary || 'black'};
 
@@ -61,9 +61,9 @@ export const CardStyle = styled.div<{
 `
 
 export const CardContentsStyle = styled.div`
-  padding: 16px 1em 24px 1em;
+  // padding: 16px 1em 24px 1em;
   flex: 1 0 auto;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

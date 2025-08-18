@@ -26,6 +26,7 @@ const StoreScreen: FC = () => {
     useSelector(selectBannerData)
 
   const storeItems = useSelector(selectStoreItems)
+
   const speedItems = useSelector(selectSpeedItems)
   const storePageOptions = useSelector(selectStorePageOptions)
 

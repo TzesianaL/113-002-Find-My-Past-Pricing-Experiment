@@ -69,7 +69,7 @@ const data: DataFileType = {
     titleColor: 'black',
     subtitleColor: 'black',
     fontFamily: 'Arial, Helvetica, sans-serif',
-    featureBullet: '⦾', // \u2022',
+    featureBullet: '•', // \u2022',
   },
 }
 

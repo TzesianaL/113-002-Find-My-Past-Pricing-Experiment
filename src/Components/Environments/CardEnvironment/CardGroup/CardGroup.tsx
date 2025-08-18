@@ -59,6 +59,7 @@ const CardGroup: FC<CardGroupProps> = ({
             priceString={item.priceString}
             title={item.title}
             subtitle={item.subtitle}
+            subtitle2={item.subtitle2}
             features={item.features}
             pricePeriod={item.pricePeriod}
             highlightedText={item.highlightedText}
