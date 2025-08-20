@@ -16,7 +16,7 @@ export const PriceStyle = styled.div`
   }
   .pricePeriodPlaceHolder {
     font-size: small;
-    color: grey;
+    color: white;
     line-height: 23px;
   }
 `

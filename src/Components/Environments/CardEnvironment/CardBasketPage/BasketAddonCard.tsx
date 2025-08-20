@@ -29,12 +29,10 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
       {/* <Title>Add Ons</Title> */}
       {selectedAddons.map((selectedAddon) => (
         <BasketAddonCardRowStyle key={selectedAddon.id}>
-          <Title subtitle style={{ width: '300px' }}>
-            {selectedAddon.title}
-          </Title>
+          <Title subtitle>{selectedAddon.title}</Title>
           {selectedAddon.price !== undefined && (
             <Price
-              style={{ width: '120px' }}
+              // style={{ width: '120px' }}
               price={convertPricePeriods(
                 selectedAddon.price,
                 selectedAddon.pricePeriod,

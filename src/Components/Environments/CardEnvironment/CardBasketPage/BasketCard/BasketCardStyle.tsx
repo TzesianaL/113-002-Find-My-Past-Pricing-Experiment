@@ -14,15 +14,19 @@ export const BasketCardStyle = styled.div.attrs({
   flex-direction: column;
   justify-self: center;
   width: 100%;
-  padding: 16px 1em 24px 1em;
+  // padding: 16px 1em 24px 1em;
   align-items: left;
   border: 7px;
-  border-color: ${(props) => props.theme.card?.borderColor || '#000000'};
+  border-color: ${(props) => props.theme.card?.borderColor || 'gray'};
   border-radius: 7px;
-  max-width: 300px;
+  max-width: 500px;
   color: black;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-  margin: 0em 1em 1em 1em;
+  // margin: 0em 1em 1em 1em;
+
+  @media (max-width: 768px) {
+    max-width: 350px;
+  }
   // font-size: 0.8em;
   .cardPriceDetails {
     display: flex;

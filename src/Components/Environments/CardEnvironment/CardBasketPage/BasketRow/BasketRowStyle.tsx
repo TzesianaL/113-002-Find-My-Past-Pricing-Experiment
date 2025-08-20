@@ -6,7 +6,10 @@ import styled from 'styled-components'
 
 export const BasketRowStyle = styled.div`
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 1em;
+  // align-items: center;
   img {
     height: 36px;
     padding: 0 0.25em;

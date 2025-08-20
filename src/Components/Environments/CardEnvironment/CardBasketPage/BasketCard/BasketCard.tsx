@@ -13,7 +13,6 @@ export interface BasketCardProps {
   subtitle?: string
   cardImage?: string
   price?: number
-  speed: string
   upfrontPrice?: number
 }
 
@@ -23,27 +22,27 @@ export interface BasketCardProps {
  */
 const BasketCard: FC<BasketCardProps> = ({
   title,
-  speed,
   subtitle,
   price,
   upfrontPrice,
 }) => {
   return (
     <BasketCardRow>
-      <BasketCardStyle style={{ border: '2px solid black' }}>
-        <BasketRow text={speed} />
-        <BasketRow text={title} />
-        <Title subtitle>
+      <BasketCardStyle>
+        <div
+          style={{
+            padding: '1em',
+            backgroundColor: '#242048',
+          }}
+        >
+          <BasketRow text={title} price={price} />
+        </div>
+        <Title subtitle style={{ padding: '1em' }}>
           {subtitle !== undefined && (
             <div dangerouslySetInnerHTML={{ __html: subtitle }} />
           )}
-          <br />
-          <hr />
-          <div style={{ display: 'flex', gap: '1em' }}>
-            <Price price={price} pricePeriod="month" />
-            <Price price={upfrontPrice} pricePeriod="upfront" />
-          </div>
         </Title>
+        <br />
       </BasketCardStyle>
     </BasketCardRow>
   )

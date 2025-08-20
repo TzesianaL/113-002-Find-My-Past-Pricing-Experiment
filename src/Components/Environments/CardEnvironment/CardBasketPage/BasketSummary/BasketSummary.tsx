@@ -27,13 +27,13 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
 
   return (
     <BasketSummaryStyle>
-      <h2>Your Basket</h2>
+      <h2 style={{ color: '#242048' }}>Review your basket</h2>
       <BasketCard
         cardImage={item.headerImage}
         // speed={selectedSpeed.mainSpeed}
         title={item.title}
         subtitle={item.subtitle}
-        price={item.price}
+        price={item.price.annualy}
         upfrontPrice={item.upfrontPrice || 0}
       />
 

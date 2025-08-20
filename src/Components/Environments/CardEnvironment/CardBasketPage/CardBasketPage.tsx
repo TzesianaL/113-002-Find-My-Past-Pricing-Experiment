@@ -51,12 +51,6 @@ const CardBasketPage: FC<BasketPageProps> = ({
   const dispatch = useDispatch()
 
   useEffect(() => {
-    // dispatch(
-    //   addOutput({
-    //     key: OutputTypes.cardSpeed,
-    //     value: ,
-    //   })
-    // )
     dispatch(
       addOutput({
         key: OutputTypes.selectedAddons,
