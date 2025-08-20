@@ -23,14 +23,11 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
   postPriceText,
   convertedPricePeriod,
 }) => {
-  const selectedSpeed = useSelector(getBasketSpeedItem)
-
   return (
     <BasketSummaryStyle>
       <h2 style={{ color: '#242048' }}>Review your basket</h2>
       <BasketCard
         cardImage={item.headerImage}
-        // speed={selectedSpeed.mainSpeed}
         title={item.title}
         subtitle={item.subtitle}
         price={item.price.annualy}

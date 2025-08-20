@@ -26,7 +26,8 @@ const BasketScreen: FC = () => {
   const basketItem = useSelector(getFirstBasketItem)
   const basketPageOptions = useSelector(selectBasketPageOptions)
   const addons = useSelector(getAddonsInBasket)
-
+  console.log('basketItem', basketItem)
+  console.log('addons', addons)
   const [shouldExitToEFS, setShouldExitToEFS] = useState(false)
 
   useScrollToTop()

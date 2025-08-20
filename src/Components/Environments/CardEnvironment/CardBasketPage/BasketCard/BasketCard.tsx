@@ -35,7 +35,7 @@ const BasketCard: FC<BasketCardProps> = ({
             backgroundColor: '#242048',
           }}
         >
-          <BasketRow text={title} price={price} />
+          <BasketRow text={title} price={price} duration="monthly" />
         </div>
         <Title subtitle style={{ padding: '1em' }}>
           {subtitle !== undefined && (

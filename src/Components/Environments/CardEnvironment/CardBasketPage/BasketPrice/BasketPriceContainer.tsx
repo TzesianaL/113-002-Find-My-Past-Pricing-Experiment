@@ -56,7 +56,7 @@ const BasketPriceContainer: FC<BasketPriceContainerProps> = ({
           marginTop: '10px',
         }}
       >
-        <span>Total Upfront Price:&nbsp;</span>
+        <span>Total Price:&nbsp;</span>
         <span> £{upfrontPrice}</span>
       </div>
 

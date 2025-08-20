@@ -134,7 +134,7 @@ export const getCostBreakdown = createSelector(
 
     // add card price to totalBasketPrice
     if (item !== undefined && item.price) {
-      let itemPrice = item.price
+      let itemPrice = item.price.monthly || 0
       itemPrice = convertPricePeriods(
         itemPrice,
         item.pricePeriod,
@@ -218,7 +218,7 @@ export const getCost = createSelector(
 
     // add card price to totalBasketPrice
     if (item !== undefined && item.price) {
-      let itemPrice = item.price
+      let itemPrice = item.price.monthly || 0
       itemPrice = convertPricePeriods(
         itemPrice,
         item.pricePeriod,

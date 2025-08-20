@@ -7,9 +7,10 @@ export interface BasketPageProps {
   text: string
   image?: string
   price: number
+  duration: string
 }
 
-const BasketRow: FC<BasketPageProps> = ({ image, text, price }) => {
+const BasketRow: FC<BasketPageProps> = ({ image, text, price, duration }) => {
   return (
     <BasketRowStyle>
       {/* {image && <img src={image} alt="cardHeader" />} */}
@@ -24,11 +25,23 @@ const BasketRow: FC<BasketPageProps> = ({ image, text, price }) => {
       >
         <div dangerouslySetInnerHTML={{ __html: text }} />
       </div>
-      <Price
-        price={price}
-        pricePeriod="month"
-        style={{ background: '#242048', color: 'white' }}
-      />
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          color: 'white',
+          textAlign: 'center',
+        }}
+      >
+        <div style={{ fontWeight: 'bold', fontSize: '1.2em' }}>
+          £{price.toFixed(2)}
+        </div>
+        <div style={{ fontSize: '0.8em', marginLeft: '0.5em' }}>
+          {' '}
+          {duration}
+        </div>
+      </div>
     </BasketRowStyle>
   )
 }
