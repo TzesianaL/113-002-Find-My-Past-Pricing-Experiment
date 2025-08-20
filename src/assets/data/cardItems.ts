@@ -8,16 +8,16 @@ export const baseStoreItems: CardItem[] = [
     subtitle: `Our Essential subscription gives you everything you need to kickstart your family history journey. Start building your family tree with the help of smart hints. Trace your relatives' stories through time with access to vital birth, marriage, death and census records.`,
     subtitle2: `<div style="text-align:left; padding:1em"><p style="font-weight: bold;">Start your family tree quickly and easily</p><div>Get growing in minutes with our online family tree builder. Smart hints reveal clues to your past as your tree grows - you'll discover amazing stories in no time.</div><p style="font-weight: bold;">The records and sources you need to get started</p><div>Must-see family history documents, including censuses and church registers, uncover your ancestors' lives, lifestyles and livelihoods.</div></div>`,
     price: {
-      monthly: 9.99,
-      quarterly: 24.99,
+      monthly: 13.99,
+      quarterly: 35.99,
+      quarterlyMonthly: 12.0,
       annualy: 99.99,
+      annualMonthly: 8.33,
     },
     upfrontPrice: 0,
     priceString: '',
     pricePeriod: 'month',
     currency: 'GBP',
-    contractDuration: '24 months',
-    parentSpeedId: 'SPEED_ITEM_1',
     features: `
 <div style="text-align: left;">
   <div style="margin-bottom: 5px;">

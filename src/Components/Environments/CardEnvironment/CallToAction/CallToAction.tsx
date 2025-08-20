@@ -11,14 +11,19 @@ export interface CallToActionProps {
    * Function to handle onClick action
    */
   onClick: () => void
+  style?: React.CSSProperties
 }
 
 /**
  * CallToAction component wraps both label and button and display them vertically. Styled components are used in order to build the styling.
  */
-const CallToAction: FC<CallToActionProps> = ({ buttonText, onClick }) => {
+const CallToAction: FC<CallToActionProps> = ({
+  buttonText,
+  onClick,
+  style,
+}) => {
   return (
-    <CallToActionStyle>
+    <CallToActionStyle style={style}>
       <Button onClick={onClick}>{buttonText}</Button>
     </CallToActionStyle>
   )

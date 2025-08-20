@@ -22,7 +22,9 @@ export interface CardItem {
   price: {
     monthly: number
     quarterly?: number
+    quarterlyMonthly?: number
     annualy?: number
+    annualMonthly?: number
   }
   currency?: string
   priceString?: string

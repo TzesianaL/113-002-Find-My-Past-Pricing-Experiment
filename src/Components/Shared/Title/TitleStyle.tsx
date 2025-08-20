@@ -12,7 +12,7 @@ export const TitleStyle = styled.div<{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: BoldVf !important;
+    font-family: Roboto;
   `}
 
   justify-content: center;

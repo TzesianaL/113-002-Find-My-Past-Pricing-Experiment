@@ -1,6 +1,6 @@
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
 import { CSSProperties } from 'styled-components'
-import { FeaturesStyle } from './FeaturesStyle'
+import { FeaturesStyle, DropdownHeader, DropdownContent } from './FeaturesStyle'
 
 export interface FeaturesProps {
   /**
@@ -8,23 +8,44 @@ export interface FeaturesProps {
    */
   features: string
   style?: CSSProperties
+  onExpandedChange?: (isExpanded: boolean) => void
 }
 
 /**
  * Component that displays features using un-order list and styled component.
  */
-const Features: FC<FeaturesProps> = ({ style, features }) => {
-  // if (features.length === 0) {
-  //   return null
-  // }
+const Features: FC<FeaturesProps> = ({ style, features, onExpandedChange }) => {
+  const [isExpanded, setIsExpanded] = useState(true)
+
+  const toggleExpanded = () => {
+    const newExpandedState = !isExpanded
+    setIsExpanded(newExpandedState)
+    onExpandedChange?.(newExpandedState)
+  }
 
   return (
-    <FeaturesStyle style={style}>
-      <div
-        style={{ marginBottom: '11px' }}
-        dangerouslySetInnerHTML={{ __html: features }}
-      />
-    </FeaturesStyle>
+    <div style={style}>
+      <DropdownHeader onClick={toggleExpanded}>
+        <span>What is included</span>
+        <span
+          style={{
+            transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)',
+            transition: 'transform 0.3s ease',
+          }}
+        >
+          ▼
+        </span>
+      </DropdownHeader>
+
+      <DropdownContent isExpanded={isExpanded}>
+        <FeaturesStyle>
+          <div
+            style={{ marginBottom: '11px' }}
+            dangerouslySetInnerHTML={{ __html: features }}
+          />
+        </FeaturesStyle>
+      </DropdownContent>
+    </div>
   )
 }
 

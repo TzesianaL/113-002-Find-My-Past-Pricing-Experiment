@@ -30,7 +30,7 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
       <h2>Your Basket</h2>
       <BasketCard
         cardImage={item.headerImage}
-        speed={selectedSpeed.mainSpeed}
+        // speed={selectedSpeed.mainSpeed}
         title={item.title}
         subtitle={item.subtitle}
         price={item.price}

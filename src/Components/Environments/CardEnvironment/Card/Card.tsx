@@ -10,6 +10,7 @@ import Features from '../Features/Features'
 import CallToAction from '../CallToAction/CallToAction'
 import { CardContentsStyle, CardStyle } from './CardStyle'
 import CardHighlight from '../CardHighlight/CardHighlight'
+import Button from 'Components/Shared/Button/Button'
 
 /**
  * CardProps contains all appropriate props we should pass to nested components.
@@ -22,6 +23,8 @@ export interface CardProps {
     monthly: number
     quarterly?: number
     annualy?: number
+    quarterlyMonthly?: number
+    annualMonthly?: number
   }
   currency?: string
   priceString?: string
@@ -61,11 +64,20 @@ const Card: FC<CardProps> = ({
   id,
   isSelected = false,
 }) => {
+  const [isFeaturesExpanded, setIsFeaturesExpanded] = useState(false)
+
   // TODO: This should be replaced to something using the props, as the card probably shouldn't rely on useEFSData hook
   const { showProductRangeOnly } = useEFSData()
 
+  const handleFeaturesExpandedChange = (isExpanded: boolean) => {
+    setIsFeaturesExpanded(isExpanded)
+  }
+
+  // Calculate dynamic height based on features expansion
+  const cardHeight = isFeaturesExpanded ? 'auto' : '850px'
+
   return (
-    <CardStyle role="article" isSelected={isSelected}>
+    <CardStyle role="article" isSelected={isSelected} newWidth={cardHeight}>
       {highlightedText && (
         <CardHighlight isSelected={isSelected}>{highlightedText}</CardHighlight>
       )}
@@ -89,51 +101,138 @@ const Card: FC<CardProps> = ({
 
         <div dangerouslySetInnerHTML={{ __html: subtitle2 }} />
 
-        <Features features={features} />
-        <hr style={{ width: '100%' }} />
-        {!hidePrice && (
+        <Features
+          features={features}
+          style={{ background: isFeaturesExpanded ? '#F5F0EB' : 'transparent' }}
+          onExpandedChange={handleFeaturesExpandedChange}
+        />
+
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'flex-end',
+            width: '100%',
+            margin: '10px',
+          }}
+        >
           <div
             style={{
               display: 'flex',
               flexDirection: 'row',
-              justifyContent: 'flex-start',
-              width: '100%',
-              margin: '10px',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              paddingLeft: '1.5em',
+              paddingRight: '1.5em',
             }}
           >
-            {/* <Price
-              price={price.monthly}
-              currency={currency}
-              priceString={priceString}
-              pricePeriod={pricePeriod}
-              id={id}
-            /> */}
-            {/* <Price
-              price={price.quarterly}
-              currency={currency}
-              priceString={priceString}
-              pricePeriod={pricePeriod}
-              id={id}
-            />
-            <Price
-              price={price.annualy}
-              currency={currency}
-              priceString={priceString}
-              pricePeriod={pricePeriod}
-              id={id}
-            /> */}
+            <div style={{ fontWeight: 'bold' }}>Monthly</div>
+            <Button
+              style={{
+                backgroundColor: '#F4D13D',
+                color: '#242048',
+                width: '200px',
+                border: '1px solid #242048',
+              }}
+              onClick={() => {
+                onSelect(id)
+                handleCardClick(id)
+              }}
+            >
+              £{price.monthly.toFixed(2)}/Month
+            </Button>
           </div>
-        )}
-
-        {!showProductRangeOnly && (
-          <CallToAction
-            buttonText={purchaseButtonText || ''}
-            onClick={() => {
-              onSelect(id)
-              handleCardClick(id)
+          <div
+            style={{
+              fontSize: '0.8em',
+              textAlign: 'left',
+              paddingLeft: '1.5em',
+              paddingRight: '1.5em',
+              paddingTop: '0.5em',
             }}
-          />
-        )}
+          >
+            *Billed as a single payment of £{price.monthly.toFixed(2)}.
+            Automatic billing, cancel any time.
+          </div>
+          <hr style={{ width: '90%' }} />
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              paddingLeft: '1.5em',
+              paddingRight: '1.5em',
+            }}
+          >
+            <div style={{ fontWeight: 'bold' }}>Quarterly</div>
+            <Button
+              style={{
+                backgroundColor: '#F4D13D',
+                color: '#242048',
+                width: '200px',
+                border: '1px solid #242048',
+              }}
+              onClick={() => {
+                onSelect(id)
+                handleCardClick(id)
+              }}
+            >
+              £{price.quarterlyMonthly.toFixed(2)}/Month
+            </Button>
+          </div>
+          <div
+            style={{
+              fontSize: '0.8em',
+              textAlign: 'left',
+              paddingLeft: '1.5em',
+              paddingRight: '1.5em',
+              paddingTop: '0.5em',
+            }}
+          >
+            *Billed as a single payment of £{price.quarterly.toFixed(2)}.
+            Automatic billing, cancel any time.
+          </div>
+          <hr style={{ width: '90%' }} />
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              paddingLeft: '1.5em',
+              paddingRight: '1.5em',
+            }}
+          >
+            <div style={{ fontWeight: 'bold' }}>Annually</div>
+            <Button
+              style={{
+                backgroundColor: '#F4D13D',
+                color: '#242048',
+                width: '200px',
+                border: '1px solid #242048',
+              }}
+              onClick={() => {
+                onSelect(id)
+                handleCardClick(id)
+              }}
+            >
+              £{price.annualMonthly.toFixed(2)}/Month
+            </Button>
+          </div>
+          <div
+            style={{
+              fontSize: '0.8em',
+              textAlign: 'left',
+              paddingLeft: '1.5em',
+              paddingRight: '1.5em',
+              paddingTop: '0.5em',
+            }}
+          >
+            *Billed as a single payment of £{price.annualy.toFixed(2)}.
+            Automatic billing, cancel any time.
+          </div>
+        </div>
       </CardContentsStyle>
     </CardStyle>
   )
