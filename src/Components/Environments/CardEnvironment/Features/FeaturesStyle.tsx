@@ -55,7 +55,7 @@ export const DropdownHeader = styled.div`
 `
 
 export const DropdownContent = styled.div<{ isExpanded: boolean }>`
-  max-height: ${(props) => (props.isExpanded ? '500px' : '0')};
+  max-height: ${(props) => (props.isExpanded ? 'auto' : '0')};
   overflow: hidden;
   transition: max-height 0.3s ease;
   background-color: #f5f0eb;

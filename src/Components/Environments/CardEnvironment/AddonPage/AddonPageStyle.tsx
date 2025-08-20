@@ -32,8 +32,8 @@ export const AddonPageStyle = styled.div`
 
   ${AddonGroupStyle} {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    // flex-wrap: wrap;
     background: #f2f2f2;
     justify-content: center;
   }

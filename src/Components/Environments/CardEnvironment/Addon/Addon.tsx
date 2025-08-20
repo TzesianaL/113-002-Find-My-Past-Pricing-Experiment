@@ -16,13 +16,6 @@ const Addon: FC<{
   data: AddonData
 }> = ({ layout, data }) => {
   let newLayout = layout
-
-  if (data.title.includes('WiFi Walk')) {
-    newLayout = highlightedCardAddonLayout
-  }
-  if (data.title.includes('Vodafone Xtra Broadband')) {
-    newLayout = xtraBroadBandLayout
-  }
   return (
     <AddonStyle>
       <AddonLayoutFactory element={newLayout} dataset={data} />

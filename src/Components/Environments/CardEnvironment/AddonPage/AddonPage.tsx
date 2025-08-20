@@ -3,14 +3,7 @@ import Button from 'Components/Shared/Button/Button'
 import { BlockLayout, AddonData } from 'types'
 import { useSelector } from 'react-redux'
 import { useScrollToTop } from 'hooks/useScrollToTop'
-import { WifiMaxAddonLayout } from 'StandardLayouts/AddonLayouts'
-import {
-  getAddonsInBasket,
-  getBasketItem,
-  getBasketSpeedItem,
-  getCost,
-  getSelectedCondition,
-} from 'redux/reducers/logicStore/logicStore.selectors'
+import { getBasketItem } from 'redux/reducers/logicStore/logicStore.selectors'
 import AddonGroup from '../AddonGroup/AddonGroup'
 import StoreBanner from '../../../Shared/StoreBanner/StoreBanner'
 import { AddonPageStyle } from './AddonPageStyle'
@@ -38,13 +31,10 @@ const AddonPage: FC<AddonPageProps> = ({
   footerText,
   onContinue,
 }) => {
-  const currentPrice = useSelector(getCost)
-  const selectedCondition = useSelector(getSelectedCondition)
   useScrollToTop()
+
   const selectedItem = useSelector(getBasketItem)
 
-  const normalAddons = data.filter((addon) => addon.group === 3)
-  const wifiMaxAddon = data.find((addon) => addon.group === 4)
   return (
     <AddonPageStyle>
       <div style={{ alignItems: 'left', width: '100%' }}>
@@ -57,35 +47,20 @@ const AddonPage: FC<AddonPageProps> = ({
           dangerouslySetInnerHTML={{ __html: introText }}
         />
       )}
-      <h1>
-        Add-ons
-        <span style={{ fontWeight: 'normal' }}> (optional)</span>
-      </h1>
-      <AddonGroup data={normalAddons} layout={layout} />
-      {console.log(
-        'selectedCondition',
-        typeof selectedCondition,
-        selectedCondition
-      )}
-      {selectedCondition === 2 && (
-        <>
-          <h1>
-            Add WIFI Max{' '}
-            <span style={{ fontWeight: 'normal' }}>to your broadband</span>
-          </h1>
-          <AddonGroup
-            data={wifiMaxAddon ? [wifiMaxAddon] : []}
-            layout={WifiMaxAddonLayout}
-          />
-        </>
-      )}
+      <h2 style={{ color: '#242048' }}>Choose your add ons</h2>
+      <AddonGroup data={data} layout={layout} />
       {footerText && (
         <div
           className="footerText"
           dangerouslySetInnerHTML={{ __html: footerText }}
         />
       )}
-      {onContinue && <Button onClick={onContinue}>Continue to basket </Button>}
+      <br />
+      {onContinue && (
+        <Button onClick={onContinue} style={{ border: '1px solid #242048' }}>
+          Continue to basket{' '}
+        </Button>
+      )}
       <br />
       <br />
     </AddonPageStyle>

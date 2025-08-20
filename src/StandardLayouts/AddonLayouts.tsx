@@ -98,7 +98,7 @@ export const cardAddonLayout: BlockLayout = {
 }
 
 export const WifiMaxAddonLayout: BlockLayout = {
-  blockType: BlockEnums.VStack,
+  blockType: BlockEnums.HStack,
   blocks: [
     {
       blockType: BlockEnums.Title,

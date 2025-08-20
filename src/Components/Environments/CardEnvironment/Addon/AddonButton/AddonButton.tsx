@@ -31,10 +31,12 @@ interface AddonButtonProps {
  */
 const AddonButton: VFC<AddonButtonProps> = ({ addon, styleOverride }) => {
   const removeStyle = {
-    alignSelf: 'center',
-    background: 'green',
+    backgroundColor: 'green',
     color: 'white',
-    width: '300px',
+    width: '100px',
+    minWidth: '80px',
+    border: '1px solid #242048',
+    padding: `0.2em 0em`,
   }
 
   const disableButtonStyle = {
