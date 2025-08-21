@@ -54,4 +54,8 @@ export const ButtonContainer = styled.div`
   button {
     margin: 0.5em 1em;
   }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 `

@@ -17,10 +17,7 @@ export function isImageItem(item: SplashItem): item is SplashImageItem {
 }
 
 export function getPeriodText(periodType: Periods): string {
-  if (periodType === 'upfront') {
-    return 'upfront'
-  }
-  return `per ${periodType}`
+  return `${periodType}ly`
 }
 
 export function convertPricePeriods(

@@ -89,14 +89,25 @@ const BasketPage: FC<BasketPageProps> = ({
           />
         )}
         <ButtonContainer>
-          <Button onClick={onEmptyBasket}>
+          <Button
+            onClick={onEmptyBasket}
+            style={{ border: '1px solid #242048', fontWeight: 'bold' }}
+          >
             {emptyBasketButtonText || 'Empty Basket'}
           </Button>
-          <Button onClick={onCheckout}>
+          <Button
+            onClick={onCheckout}
+            style={{ border: '1px solid #242048', fontWeight: 'bold' }}
+          >
             {checkOutButtonText || 'Check Out'}
           </Button>
           {showCancelButton && onCancel && (
-            <Button onClick={onCancel}>{cancelButtonText || 'Cancel'}</Button>
+            <Button
+              onClick={onCancel}
+              style={{ border: '1px solid #242048', fontWeight: 'bold' }}
+            >
+              {cancelButtonText || 'Cancel'}
+            </Button>
           )}
         </ButtonContainer>
       </ContentWrapper>

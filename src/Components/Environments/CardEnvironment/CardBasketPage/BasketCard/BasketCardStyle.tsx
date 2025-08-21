@@ -67,5 +67,5 @@ export const BasketCardWrapper = styled.div.attrs({
 
 export const BasketCardRow = styled.div`
   // display: flex;
-  width: 500px;
+  // width: 500px;
 `

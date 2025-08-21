@@ -9,24 +9,28 @@ import styled from 'styled-components'
 
 export const BasketAddonCardStyle = styled.div`
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
-  border-radius: 5px;
-  margin: 0em 1em 1em 1em;
+
   background-color: white;
+  max-width: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 97%;
+  margin: auto;
   color: black;
+  @media (max-width: 768px) {
+    max-width: 350px;
+  }
 `
 
 export const BasketAddonCardRowStyle = styled.div`
   background-color: white;
   display: flex;
-  width: 89%;
-  // margin: 0.5em 1em 1em 1em;
+  width: 95%;
+  padding: 1em;
   justify-content: space-between;
   flex-direction: row;
+  border-radius: 5px;
   color: black;
 
   ${TitleStyle} {

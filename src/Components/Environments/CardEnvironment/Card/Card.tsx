@@ -64,7 +64,7 @@ const Card: FC<CardProps> = ({
   id,
   isSelected = false,
 }) => {
-  const [isFeaturesExpanded, setIsFeaturesExpanded] = useState(false)
+  const [isFeaturesExpanded, setIsFeaturesExpanded] = useState(true)
 
   // TODO: This should be replaced to something using the props, as the card probably shouldn't rely on useEFSData hook
   const { showProductRangeOnly } = useEFSData()

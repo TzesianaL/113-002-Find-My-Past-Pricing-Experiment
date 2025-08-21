@@ -26,4 +26,17 @@ export const BasketPriceContainerStyle = styled.div`
   }
   color: ${(props) =>
     props.theme.card?.color || props.theme.colors?.primary || '#000000'};
+
+  @media screen and (max-width: 600px) {
+    align-items: center;
+    justify-content: center;
+
+    div {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  }
 `

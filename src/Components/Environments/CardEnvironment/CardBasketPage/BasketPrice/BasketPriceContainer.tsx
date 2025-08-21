@@ -41,23 +41,22 @@ const BasketPriceContainer: FC<BasketPriceContainerProps> = ({
           justifyContent: 'space-between',
           fontSize: '18px',
           fontWeight: '600',
+          marginTop: '10px',
         }}
       >
-        <span>Total Monthly Price:&nbsp; </span>
-        <span> &nbsp;£{price} per month</span>
+        <span>Total Price:&nbsp;</span>
+        <span> £xx</span>
       </div>
-
       <div
         style={{
           display: 'flex',
           justifyContent: 'space-between',
           fontSize: '18px',
           fontWeight: '600',
-          marginTop: '10px',
         }}
       >
-        <span>Total Price:&nbsp;</span>
-        <span> £{upfrontPrice}</span>
+        <span>Total Monthly Price:&nbsp; </span>
+        <span> &nbsp;£{price}</span>
       </div>
 
       {postPriceText && (

@@ -33,6 +33,8 @@ const BasketCard: FC<BasketCardProps> = ({
           style={{
             padding: '1em',
             backgroundColor: '#242048',
+            borderTopLeftRadius: '10px',
+            borderTopRightRadius: '10px',
           }}
         >
           <BasketRow text={title} price={price} duration="monthly" />

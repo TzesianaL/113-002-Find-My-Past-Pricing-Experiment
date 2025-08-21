@@ -32,7 +32,6 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
           <Title subtitle>{selectedAddon.title}</Title>
           {selectedAddon.price !== undefined && (
             <Price
-              // style={{ width: '120px' }}
               price={convertPricePeriods(
                 selectedAddon.price,
                 selectedAddon.pricePeriod,
