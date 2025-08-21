@@ -4,6 +4,8 @@ import { AddonData } from 'types'
 import Price from 'Components/Shared/Price/Price'
 import BasketRow from '../BasketRow/BasketRow'
 import { BasketCardStyle, BasketCardRow } from './BasketCardStyle'
+import { useSelector } from 'react-redux'
+import { getDuration } from 'redux/reducers/logicStore/logicStore.selectors'
 
 /**
  * CardProps contains all appropriate props we should pass to nested components.
@@ -26,6 +28,7 @@ const BasketCard: FC<BasketCardProps> = ({
   price,
   upfrontPrice,
 }) => {
+  const duration = useSelector(getDuration)
   return (
     <BasketCardRow>
       <BasketCardStyle>
@@ -37,7 +40,7 @@ const BasketCard: FC<BasketCardProps> = ({
             borderTopRightRadius: '10px',
           }}
         >
-          <BasketRow text={title} price={price} duration="monthly" />
+          <BasketRow text={title} price={price} duration={duration} />
         </div>
         <Title subtitle style={{ padding: '1em' }}>
           {subtitle !== undefined && (
