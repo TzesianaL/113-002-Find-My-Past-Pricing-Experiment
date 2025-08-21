@@ -74,8 +74,36 @@ const Card: FC<CardProps> = ({
     setIsFeaturesExpanded(isExpanded)
   }
 
-  // Calculate dynamic height based on features expansion
-  const cardHeight = isFeaturesExpanded ? 'auto' : '850px'
+  // Calculate dynamic height based on features expansion and selected condition
+  let baseHeight = '850px'
+  if (selectedCondition === 5) {
+    baseHeight = '900px' // Slightly higher for scenario 5
+  }
+
+  if (selectedCondition === 6) {
+    baseHeight = '990px' // Slightly higher for scenario 6
+  }
+
+  if (selectedCondition === 7) {
+    baseHeight = '1030px' // Slightly higher for scenario 7
+  }
+
+  if (selectedCondition === 8) {
+    baseHeight = '1010px' // Slightly higher for scenario 8
+  }
+
+  const cardHeight = isFeaturesExpanded ? 'auto' : baseHeight
+
+  let subTitle2Style = '410px'
+
+  if (selectedCondition === 6 || selectedCondition === 8) {
+    // For condition 6, we set a specific height
+    subTitle2Style = '525px'
+  }
+  if (selectedCondition === 7) {
+    // For condition 7, we set a specific height
+    subTitle2Style = '530px'
+  }
 
   return (
     <CardStyle role="article" isSelected={isSelected} newWidth={cardHeight}>
@@ -96,12 +124,15 @@ const Card: FC<CardProps> = ({
           </Title>
           <div
             dangerouslySetInnerHTML={{ __html: subtitle }}
-            style={{ padding: '0.7em' }}
+            style={{
+              padding: '0.7em',
+              height: selectedCondition === 5 && '60px',
+            }}
           />
         </div>
 
         <div
-          style={{ height: selectedCondition == 6 ? '525px' : '410px' }}
+          style={{ height: subTitle2Style }}
           dangerouslySetInnerHTML={{ __html: subtitle2 }}
         />
 
@@ -132,7 +163,11 @@ const Card: FC<CardProps> = ({
                   paddingRight: '1.5em',
                 }}
               >
-                <div style={{ fontWeight: 'bold' }}>Monthly</div>
+                <div style={{ fontWeight: 'bold' }}>
+                  {title !== 'Ultimate - Pay Monthly'
+                    ? 'Monthly'
+                    : '1 month commitment'}
+                </div>
                 <Button
                   style={{
                     backgroundColor: '#F4D13D',
@@ -176,7 +211,11 @@ const Card: FC<CardProps> = ({
                   paddingRight: '1.5em',
                 }}
               >
-                <div style={{ fontWeight: 'bold' }}>Quarterly</div>
+                <div style={{ fontWeight: 'bold' }}>
+                  {title !== 'Ultimate - Pay Monthly'
+                    ? 'Quarterly'
+                    : '3 month commitment'}
+                </div>
                 <Button
                   style={{
                     backgroundColor: '#F4D13D',
@@ -220,7 +259,12 @@ const Card: FC<CardProps> = ({
                   paddingRight: '1.5em',
                 }}
               >
-                <div style={{ fontWeight: 'bold' }}>Annually</div>
+                <div style={{ fontWeight: 'bold' }}>
+                  {' '}
+                  {title !== 'Ultimate - Pay Monthly'
+                    ? 'Annually'
+                    : '12 month commitment'}
+                </div>
                 <Button
                   style={{
                     backgroundColor: '#F4D13D',

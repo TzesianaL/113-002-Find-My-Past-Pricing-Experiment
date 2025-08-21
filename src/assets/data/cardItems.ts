@@ -642,7 +642,7 @@ export const condition_5: CardItem[] = [
   {
     id: 'ITEM_2',
     title: 'Ultimate Pay up Front',
-    subtitle: `Everything on Findmypast - delve even deeper, follow every thread.- pay for your year in advance and save. `,
+    subtitle: `Everything on Findmypast - delve even deeper, follow every thread - pay for your year in advance and save. `,
     subtitle2: `
     <div style="text-align:left; padding:1em">
       <p style="font-weight: bold;">All records</p>
@@ -747,9 +747,9 @@ export const condition_5: CardItem[] = [
     </div>`,
     price: {
       monthly: 24.99,
-      quarterly: 20,
+      quarterly: 60,
       quarterlyMonthly: 20,
-      annualy: 16.99,
+      annualy: 203.88,
       annualMonthly: 16.99,
     },
     upfrontPrice: 0,
@@ -1023,6 +1023,559 @@ export const condition_6: CardItem[] = [
       quarterlyMonthly: 19.99,
       annualy: 199.99,
       annualMonthly: 16.67,
+    },
+    upfrontPrice: 0,
+    priceString: '',
+    pricePeriod: 'month',
+    currency: 'GBP',
+    features: `
+<div style="text-align: left;">
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core Records</div>
+    <ul>
+      <li>Births, Death and Marriages</li>
+      <li>Census 1841 to 1921</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core product Features</div>
+    <ul>
+      <li>Family Tree builder</li>
+      <li>SmartHints</li>
+      <li>Record Search</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Unique and extended record sets</div>
+    <ul>
+      <li>Extensive Military Archive</li>
+      <li>1939 Civilian Register – the definitive record of life on the eve of war</li>
+      <li>Roman Catholic Parish Records</li>
+      <li>Migration Records - the largest online collection of British and Irish</li>
+      <li>Wills and Probate records</li>
+      <li>Regional Parish Records</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Advanced Features</div>
+    <ul>
+      <li>Search other trees</li>
+      <li>Maps</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Exclusive and Premium Records</div>
+    <ul>
+      <li>Naval records - from Trafalgar to the Second World War</li>
+      <li>British Newspaper Archive – the largest online collection of British Newspapers</li>
+      <li>Commonwealth Records</li>
+      <li>Worldwide Records: inc exclusive USA Roman Catholic Parish Records</li>
+      <li>Exclusive Workhouse and Hospitals</li>
+      <li>Exclusive Regimental Records</li>
+      <li>Irish Quaker Records</li>
+      <li>Guernsey records inc Occupation, Parish Registers, workhouse, schools and prisons</li>
+      <li>Exclusive Parish Records</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Premium Features</div>
+    <ul>
+      <li>Workspaces Research tool</li>
+    </ul>
+  </div>
+
+</div>
+    `,
+    basketOptions: {},
+  },
+]
+
+export const condition_7: CardItem[] = [
+  {
+    id: 'ITEM_1',
+    title: 'Family Tree Essential',
+    subtitle: `Access all our tools and features plus up to <span style="color: red; font-weight: bold; text-decoration: underline">10 views</span> per month from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.`,
+    subtitle2: `
+    <div style="text-align:left; padding:1em">
+      <p style="font-weight: bold;">Complete British and Irish record access.</p>
+      <div>From key national collections to millions of local and regional resources, access everything you need to trace British Isles heritage.</div>
+      <p style="font-weight: bold;">British Newspaper Archive.</p>
+      <div>From salacious scandal to local legend, newspapers reveal the family stories you won't find anywhere else. Enjoy unlimited access to the largest collection of historical British and Irish newspapers online. </div>
+       <p style="font-weight: bold;">Research your way with Workspaces.</p>
+      <div>Store, sort and summarise your family discoveries so you never miss a thread and can pick up right where you left off.</div>
+      <p style="font-weight: bold;">Worldwide records.</p>
+      <div>With access to our complete global and Commonwealth collections, track your ancestors' origins, new beginnings and final journeys.</div>
+      </div>`,
+    price: {
+      monthly: 9.99,
+      // quarterly: 35.99,
+      // quarterlyMonthly: 12.0,
+      // annualy: 99.99,
+      // annualMonthly: 8.33,
+    },
+    upfrontPrice: 0,
+    priceString: '',
+    pricePeriod: 'month',
+    currency: 'GBP',
+    features: `
+<div style="text-align: left;">
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core Records</div>
+    <ul>
+      <li>Births, Death and Marriages</li>
+      <li>Census 1841 to 1921</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core product Features</div>
+    <ul>
+      <li>Family Tree builder</li>
+      <li>SmartHints</li>
+      <li>Record Search</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Unique and extended record sets</div>
+    <ul>
+      <li>Extensive Military Archive</li>
+      <li>1939 Civilian Register – the definitive record of life on the eve of war</li>
+      <li>Roman Catholic Parish Records</li>
+      <li>Migration Records - the largest online collection of British and Irish</li>
+      <li>Wills and Probate records</li>
+      <li>Regional Parish Records</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Advanced Features</div>
+    <ul>
+      <li>Search other trees</li>
+      <li>Maps</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Exclusive and Premium Records</div>
+    <ul>
+      <li>Naval records - from Trafalgar to the Second World War</li>
+      <li>British Newspaper Archive – the largest online collection of British Newspapers</li>
+      <li>Commonwealth Records</li>
+      <li>Worldwide Records: inc exclusive USA Roman Catholic Parish Records</li>
+      <li>Exclusive Workhouse and Hospitals</li>
+      <li>Exclusive Regimental Records</li>
+      <li>Irish Quaker Records</li>
+      <li>Guernsey records inc Occupation, Parish Registers, workhouse, schools and prisons</li>
+      <li>Exclusive Parish Records</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Premium Features</div>
+    <ul>
+      <li>Workspaces Research tool</li>
+    </ul>
+  </div>
+
+</div>
+    `,
+    basketOptions: {},
+  },
+  {
+    id: 'ITEM_2',
+    title: 'Premium',
+    subtitle: `Access all our tools and features plus up to <span style="color: red; font-weight: bold; text-decoration: underline">30 views</span> per month from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.`,
+    subtitle2: `
+    <div style="text-align:left; padding:1em">
+      <p style="font-weight: bold;">Complete British and Irish record access.</p>
+      <div>From key national collections to millions of local and regional resources, access everything you need to trace British Isles heritage.</div>
+      <p style="font-weight: bold;">British Newspaper Archive.</p>
+      <div>From salacious scandal to local legend, newspapers reveal the family stories you won't find anywhere else. Enjoy unlimited access to the largest collection of historical British and Irish newspapers online. </div>
+       <p style="font-weight: bold;">Research your way with Workspaces.</p>
+      <div>Store, sort and summarise your family discoveries so you never miss a thread and can pick up right where you left off.</div>
+      <p style="font-weight: bold;">Worldwide records.</p>
+      <div>With access to our complete global and Commonwealth collections, track your ancestors' origins, new beginnings and final journeys.</div>
+      </div>`,
+    price: {
+      monthly: 13.99,
+      quarterly: 35.99,
+      quarterlyMonthly: 12.0,
+      annualy: 99.99,
+      annualMonthly: 8.33,
+    },
+    upfrontPrice: 0,
+    priceString: '',
+    pricePeriod: 'month',
+    currency: 'GBP',
+    features: `
+<div style="text-align: left;">
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core Records</div>
+    <ul>
+      <li>Births, Death and Marriages</li>
+      <li>Census 1841 to 1921</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core product Features</div>
+    <ul>
+      <li>Family Tree builder</li>
+      <li>SmartHints</li>
+      <li>Record Search</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Unique and extended record sets</div>
+    <ul>
+      <li>Extensive Military Archive</li>
+      <li>1939 Civilian Register – the definitive record of life on the eve of war</li>
+      <li>Roman Catholic Parish Records</li>
+      <li>Migration Records - the largest online collection of British and Irish</li>
+      <li>Wills and Probate records</li>
+      <li>Regional Parish Records</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Advanced Features</div>
+    <ul>
+      <li>Search other trees</li>
+      <li>Maps</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Exclusive and Premium Records</div>
+    <ul>
+      <li>Naval records - from Trafalgar to the Second World War</li>
+      <li>British Newspaper Archive – the largest online collection of British Newspapers</li>
+      <li>Commonwealth Records</li>
+      <li>Worldwide Records: inc exclusive USA Roman Catholic Parish Records</li>
+      <li>Exclusive Workhouse and Hospitals</li>
+      <li>Exclusive Regimental Records</li>
+      <li>Irish Quaker Records</li>
+      <li>Guernsey records inc Occupation, Parish Registers, workhouse, schools and prisons</li>
+      <li>Exclusive Parish Records</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Premium Features</div>
+    <ul>
+      <li>Workspaces Research tool</li>
+    </ul>
+  </div>
+
+</div>
+    `,
+    basketOptions: {},
+  },
+  {
+    id: 'ITEM_3',
+    title: 'Ultimate',
+    subtitle: `Access <span style="color: red; font-weight: bold; text-decoration: underline">all </span> our tools and features plus up to Unlimited views from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.</span>`,
+    subtitle2: `
+    <div style="text-align:left; padding:1em">
+      <p style="font-weight: bold;">Complete British and Irish record access.</p>
+      <div>From key national collections to millions of local and regional resources, access everything you need to trace British Isles heritage.</div>
+      <p style="font-weight: bold;">British Newspaper Archive.</p>
+      <div>From salacious scandal to local legend, newspapers reveal the family stories you won't find anywhere else. Enjoy unlimited access to the largest collection of historical British and Irish newspapers online. </div>
+       <p style="font-weight: bold;">Research your way with Workspaces.</p>
+      <div>Store, sort and summarise your family discoveries so you never miss a thread and can pick up right where you left off.</div>
+      <p style="font-weight: bold;">Worldwide records.</p>
+      <div>With access to our complete global and Commonwealth collections, track your ancestors' origins, new beginnings and final journeys.</div>
+      </div>`,
+    price: {
+      monthly: 13.99,
+      quarterly: 35.99,
+      quarterlyMonthly: 12.0,
+      annualy: 99.99,
+      annualMonthly: 8.33,
+    },
+    upfrontPrice: 0,
+    priceString: '',
+    pricePeriod: 'month',
+    currency: 'GBP',
+    features: `
+<div style="text-align: left;">
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core Records</div>
+    <ul>
+      <li>Births, Death and Marriages</li>
+      <li>Census 1841 to 1921</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core product Features</div>
+    <ul>
+      <li>Family Tree builder</li>
+      <li>SmartHints</li>
+      <li>Record Search</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Unique and extended record sets</div>
+    <ul>
+      <li>Extensive Military Archive</li>
+      <li>1939 Civilian Register – the definitive record of life on the eve of war</li>
+      <li>Roman Catholic Parish Records</li>
+      <li>Migration Records - the largest online collection of British and Irish</li>
+      <li>Wills and Probate records</li>
+      <li>Regional Parish Records</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Advanced Features</div>
+    <ul>
+      <li>Search other trees</li>
+      <li>Maps</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Exclusive and Premium Records</div>
+    <ul>
+      <li>Naval records - from Trafalgar to the Second World War</li>
+      <li>British Newspaper Archive – the largest online collection of British Newspapers</li>
+      <li>Commonwealth Records</li>
+      <li>Worldwide Records: inc exclusive USA Roman Catholic Parish Records</li>
+      <li>Exclusive Workhouse and Hospitals</li>
+      <li>Exclusive Regimental Records</li>
+      <li>Irish Quaker Records</li>
+      <li>Guernsey records inc Occupation, Parish Registers, workhouse, schools and prisons</li>
+      <li>Exclusive Parish Records</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Premium Features</div>
+    <ul>
+      <li>Workspaces Research tool</li>
+    </ul>
+  </div>
+
+</div>
+    `,
+    basketOptions: {},
+  },
+]
+
+export const condition_8: CardItem[] = [
+  {
+    id: 'ITEM_1',
+    title: 'Family Tree Essential',
+    subtitle: `Everything you need to kickstart your family history journey in minutes, just start with your name.`,
+    subtitle2: `
+    <div style="text-align:left; padding:1em">
+      <p style="font-weight: bold;">Start your family tree quickly and easily.</p>
+      <div>Get growing in minutes with our online family tree builder. Smart hints reveal clues to your past as your tree grows - you'll discover amazing stories in no time.</div>
+      <p style="font-weight: bold;">The records and sources you need to get started.</p>
+      <div>Must-see family history documents, including censuses and church registers, uncover your ancestors' lives, lifestyles and livelihoods.</div>
+
+    </div>`,
+    price: {
+      monthly: 9.99,
+      // quarterly: 35.99,
+      // quarterlyMonthly: 12.0,
+      // annualy: 99.99,
+      // annualMonthly: 8.33,
+    },
+    upfrontPrice: 0,
+    priceString: '',
+    pricePeriod: 'month',
+    currency: 'GBP',
+    features: `
+<div style="text-align: left;">
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core Records</div>
+    <ul>
+      <li>Births, Death and Marriages</li>
+      <li>Census 1841 to 1921</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core product Features</div>
+    <ul>
+      <li>Family Tree builder</li>
+      <li>SmartHints</li>
+      <li>Record Search</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 5px;">
+    <div style="color: red; font-weight: bold; margin-bottom: 4px;">✗ Unique and extended record sets</div>
+    <ul>
+      <li>Extensive Military Archive</li>
+      <li>1939 Civilian Register – the definitive record of life on the eve of war</li>
+      <li>Roman Catholic Parish Records</li>
+      <li>Migration Records - the largest online collection of British and Irish</li>
+      <li>Wills and Probate records</li>
+      <li>Regional Parish Records</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: red; font-weight: bold; margin-bottom: 4px;">✗ Advanced Features</div>
+    <ul>
+      <li>Search other trees</li>
+      <li>Maps</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: red; font-weight: bold; margin-bottom: 4px;">✗ Exclusive and Premium Records</div>
+    <ul>
+      <li>Naval records - from Trafalgar to the Second World War</li>
+      <li>British Newspaper Archive – the largest online collection of British Newspapers</li>
+      <li>Commonwealth Records</li>
+      <li>Worldwide Records: inc exclusive USA Roman Catholic Parish Records</li>
+      <li>Exclusive Workhouse and Hospitals</li>
+      <li>Exclusive Regimental Records</li>
+      <li>Irish Quaker Records</li>
+      <li>Guernsey records inc Occupation, Parish Registers, workhouse, schools and prisons</li>
+      <li>Exclusive Parish Records</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: red; font-weight: bold; margin-bottom: 4px;">✗ Premium Features</div>
+    <ul>
+      <li>Workspaces Research tool</li>
+    </ul>
+  </div>
+
+</div>
+    `,
+    basketOptions: {},
+  },
+  {
+    id: 'ITEM_2',
+    title: 'Premium',
+    subtitle: `Everything in Essential subscription plus amazing unique record sets and features to help you reveal richer family stories.`,
+    subtitle2: `
+    <div style="text-align:left; padding:1em">
+      <p style="font-weight: bold;">Detail-rich records you won't find elsewhere</p>
+      <div> Flesh out your family tree with stories from our exclusive military, migration and church record collections. Discover amazing detail with the 1939 register and millions of extra records.</div>
+      
+      <p style="font-weight: bold;">Exclusive product features.</p>
+      <div>View you tree like never before with our amazing Maps product, tracing your family not just over time but space too.</div>
+      
+      <p style="font-weight: bold;">Searching made easy.</p>
+      <div>Our unique Advanced Search tools help you find relevant records instantly. While Tree Search harnesses the power of the Findmypast community to unlock new connections. </div>
+    
+    </div>`,
+    price: {
+      monthly: 13.99,
+      quarterly: 35.99,
+      quarterlyMonthly: 12.0,
+      annualy: 99.99,
+      annualMonthly: 8.33,
+    },
+    upfrontPrice: 0,
+    priceString: '',
+    pricePeriod: 'month',
+    currency: 'GBP',
+    features: `
+<div style="text-align: left;">
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core Records</div>
+    <ul>
+      <li>Births, Death and Marriages</li>
+      <li>Census 1841 to 1921</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Core product Features</div>
+    <ul>
+      <li>Family Tree builder</li>
+      <li>SmartHints</li>
+      <li>Record Search</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Unique and extended record sets</div>
+    <ul>
+      <li>Extensive Military Archive</li>
+      <li>1939 Civilian Register – the definitive record of life on the eve of war</li>
+      <li>Roman Catholic Parish Records</li>
+      <li>Migration Records - the largest online collection of British and Irish</li>
+      <li>Wills and Probate records</li>
+      <li>Regional Parish Records</li>
+    </ul>
+  </div>
+  
+  <div style="margin-bottom: 5px;">
+    <div style="color: green; font-weight: bold; margin-bottom: 4px;">✓ Advanced Features</div>
+    <ul>
+      <li>Search other trees</li>
+      <li>Maps</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: red; font-weight: bold; margin-bottom: 4px;">✗ Exclusive and Premium Records</div>
+    <ul>
+      <li>Naval records - from Trafalgar to the Second World War</li>
+      <li>British Newspaper Archive – the largest online collection of British Newspapers</li>
+      <li>Commonwealth Records</li>
+      <li>Worldwide Records: inc exclusive USA Roman Catholic Parish Records</li>
+      <li>Exclusive Workhouse and Hospitals</li>
+      <li>Exclusive Regimental Records</li>
+      <li>Irish Quaker Records</li>
+      <li>Guernsey records inc Occupation, Parish Registers, workhouse, schools and prisons</li>
+      <li>Exclusive Parish Records</li>
+    </ul>
+  </div>
+
+   <div style="margin-bottom: 5px;">
+    <div style="color: red; font-weight: bold; margin-bottom: 4px;">✗ Premium Features</div>
+    <ul>
+      <li>Workspaces Research tool</li>
+    </ul>
+  </div>
+
+</div>
+    `,
+    basketOptions: {},
+  },
+  {
+    id: 'ITEM_3',
+    title: 'Ultimate',
+    subtitle: `Unlock everything that Findmypast has to offer. An ever-growing newspaper archive. Research-refining features. Records spanning the globe.`,
+    subtitle2: `
+    <div style="text-align:left; padding:1em">
+      <p style="font-weight: bold;">Complete British and Irish record access.</p>
+      <div>From key national collections to millions of local and regional resources, access everything you need to trace British Isles heritage.</div>
+      
+      <p style="font-weight: bold;">British Newspaper Archive.</p>
+      <div>From salacious scandal to local legend, newspapers reveal the family stories you won't find anywhere else. Enjoy unlimited access to the largest collection of historical British and Irish newspapers online. </div>
+      
+      <p style="font-weight: bold;">Research your way with Workspaces.</p>
+      <div>Store, sort and summarise your family discoveries so you never miss a thread and can pick up right where you left off.</div>
+    
+      <p style="font-weight: bold;">Worldwide records.</p>
+      <div>With access to our complete global and Commonwealth collections, track your ancestors' origins, new beginnings and final journeys</div>
+    </div>`,
+    price: {
+      monthly: 24.99,
+      quarterly: 49.99,
+      quarterlyMonthly: 16.66,
+      annualy: 149.99,
+      annualMonthly: 12.49,
     },
     upfrontPrice: 0,
     priceString: '',

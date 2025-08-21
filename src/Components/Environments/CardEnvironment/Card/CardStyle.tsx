@@ -35,7 +35,7 @@ export const CardStyle = styled.div<{
   border-radius: 0.3em;
   border-top-left-radius: 0em;
   width: ${(props) => props.theme.card?.width || '380px'};
-  height: ${(props) => props.newWidth || '930px'};
+  height: ${(props) => props.newWidth || '920px'};
   transition: height 0.3s ease;
   color: ${(props) =>
     props.theme.card?.color || props.theme.colors?.primary || 'black'};

@@ -6,13 +6,15 @@ import {
   condition_4,
   condition_5,
   condition_6,
+  condition_7,
+  condition_8,
 } from './cardItems'
 import {
   baseAddonPageOptions,
   baseBasketPageOptions,
   baseStorePageOptions,
 } from './pageOptions'
-import { baseAddonData, condition_6_addons } from './addons'
+import { baseAddonData, condition_6_addons, condition_8_addons } from './addons'
 import { speedItemsBaseline } from './speedItems'
 import { cardAddonLayout } from 'StandardLayouts/AddonLayouts'
 
@@ -81,6 +83,27 @@ export const conditionData: { [key: number]: ConditionType } = {
     addonPageOptions: baseAddonPageOptions,
     basketPageOptions: baseBasketPageOptions,
     storeAddons: condition_6_addons,
+    addonLayout: cardAddonLayout,
+  },
+  7: {
+    conditionName: 'Scenario 7 - Third Tier Volume',
+    storePageOptions: baseStorePageOptions,
+    splash: baseSplashScreen,
+    storeItems: condition_7,
+    speedItems: speedItemsBaseline,
+    addonPageOptions: baseAddonPageOptions,
+    basketPageOptions: baseBasketPageOptions,
+    addonLayout: cardAddonLayout,
+  },
+  8: {
+    conditionName: 'Scenario 8 - Third Tier Feature Price Drop',
+    storePageOptions: baseStorePageOptions,
+    splash: baseSplashScreen,
+    storeItems: condition_8,
+    speedItems: speedItemsBaseline,
+    addonPageOptions: baseAddonPageOptions,
+    basketPageOptions: baseBasketPageOptions,
+    storeAddons: condition_8_addons,
     addonLayout: cardAddonLayout,
   },
 }
