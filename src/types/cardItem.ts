@@ -20,7 +20,7 @@ export interface CardItem {
   subtitle: string
   subtitle2?: string
   price: {
-    monthly: number
+    monthly?: number
     quarterly?: number
     quarterlyMonthly?: number
     annualy?: number

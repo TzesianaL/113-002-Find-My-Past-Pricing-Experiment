@@ -27,7 +27,7 @@ const data: DataFileType = {
   storePageOptions: baseStorePageOptions,
   addonPageOptions: baseAddonPageOptions,
   basketPageOptions: baseBasketPageOptions,
-  storeAddons: baseAddonData,
+  // storeAddons: baseAddonData,
   addonLayout: cardAddonLayout,
 
   // This is the theming -- this can be changed per condition as well, though we usually won't need to

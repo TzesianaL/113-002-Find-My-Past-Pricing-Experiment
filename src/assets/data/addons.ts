@@ -9,17 +9,17 @@ export const baseAddonData: AddonData[] = [
     subtitle:
       'Add complete access to the British Newspaper Archive - the worlds largest online collection of British and Irish Newspapers',
     features: [],
-    price: 6.99,
+    price: 7.99,
     pricePeriod: 'month',
   },
   {
     id: 'Addon2',
     title: 'Exclusive records',
     subtitle:
-      'Get access  to our exclusive records sets - including Naval, quaker and catholic parish records',
+      'Get access  to our complete record sets including our exclusive records sets - such as  Naval, quaker and catholic parish records',
     // group: 3,
     features: [],
-    price: 3.99,
+    price: 4.99,
     pricePeriod: 'month',
   },
   {
@@ -29,7 +29,41 @@ export const baseAddonData: AddonData[] = [
       'Access Workspaces our dedicated product that allows you to store, sort and archive your research like never before',
     // group: 3,
     features: [],
-    price: 10,
+    price: 4.99,
+    pricePeriod: 'month',
+  },
+]
+
+export const condition_6_addons: AddonData[] = [
+  // group 3
+  {
+    id: 'Addon1',
+    title: 'British Newspaper Archive',
+    // group: 3,
+    subtitle:
+      'Add complete access to the British Newspaper Archive - the worlds largest online collection of British and Irish Newspapers',
+    features: [],
+    price: 7.99,
+    pricePeriod: 'month',
+  },
+  {
+    id: 'Addon2',
+    title: 'Exclusive and complete records sets',
+    subtitle:
+      'Get access  to our complete record sets including our exclusive records sets - such as  Naval, quaker and catholic parish records.',
+    // group: 3,
+    features: [],
+    price: 4.99,
+    pricePeriod: 'month',
+  },
+  {
+    id: 'Addon3',
+    title: 'Workspaces',
+    subtitle:
+      'Access Workspaces our dedicated product that allows you to store, sort and archive your research like never before',
+    // group: 3,
+    features: [],
+    price: 4.99,
     pricePeriod: 'month',
   },
 ]

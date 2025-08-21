@@ -34,8 +34,8 @@ export const CardStyle = styled.div<{
     props.isSelected ? '#00b050' : props.theme.card?.borderColor || '#F5F0EB'};
   border-radius: 0.3em;
   border-top-left-radius: 0em;
-  width: ${(props) => props.theme.card?.width || '340px'};
-  height: ${(props) => props.newWidth || '920px'};
+  width: ${(props) => props.theme.card?.width || '380px'};
+  height: ${(props) => props.newWidth || '930px'};
   transition: height 0.3s ease;
   color: ${(props) =>
     props.theme.card?.color || props.theme.colors?.primary || 'black'};
