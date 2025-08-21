@@ -6,7 +6,10 @@ import BasketAddonCard from '../BasketAddonCard'
 import { BasketSummaryStyle } from './BasketSummaryStyle'
 import { useSelector } from 'react-redux'
 import { get } from 'http'
-import { getBasketSpeedItem } from 'redux/reducers/logicStore/logicStore.selectors'
+import {
+  getBasketSpeedItem,
+  getCardPrice,
+} from 'redux/reducers/logicStore/logicStore.selectors'
 
 interface BasketSummaryProps {
   item: CardItem
@@ -23,6 +26,7 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
   postPriceText,
   convertedPricePeriod,
 }) => {
+  const price = useSelector(getCardPrice)
   return (
     <BasketSummaryStyle>
       <h2 style={{ color: '#242048' }}>Review your basket</h2>
@@ -30,7 +34,7 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
         cardImage={item.headerImage}
         title={item.title}
         subtitle={item.subtitle}
-        price={item.price.annualy}
+        price={price}
         upfrontPrice={item.upfrontPrice || 0}
       />
 

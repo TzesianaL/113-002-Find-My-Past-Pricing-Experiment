@@ -58,6 +58,16 @@ export const getAddonsInBasket = createSelector(
   (logic) => logic.basketAddons
 )
 
+export const getCardPrice = createSelector(
+  selectLogicStore,
+  (logic) => logic.price
+)
+
+export const getDuration = createSelector(
+  selectLogicStore,
+  (logic) => logic.duration
+)
+
 export const getPCWProductInBasket = createSelector(
   selectLogicStore,
   selectPCWData,
@@ -189,13 +199,23 @@ export const getCost = createSelector(
   getAddonsInBasket,
   selectBasketPageOptions,
   getBasketSpeedItem,
-  (item, selectedAddons, basketPageOptions, basketSpeedItem) => {
+  getCardPrice,
+  getDuration,
+  (
+    item,
+    selectedAddons,
+    basketPageOptions,
+    basketSpeedItem,
+    cardPrice,
+    duration
+  ) => {
     // sum up the total price of selected addons and card
+    let totalMonthlyBasketPrice = 0
     let totalBasketPrice = 0
 
     // sum up total addons price
     if (selectedAddons !== undefined && selectedAddons.length !== 0) {
-      totalBasketPrice += selectedAddons.reduce(
+      totalMonthlyBasketPrice += selectedAddons.reduce(
         (sum, basketAddon) =>
           sum +
           convertPricePeriods(
@@ -217,16 +237,27 @@ export const getCost = createSelector(
     // }
 
     // add card price to totalBasketPrice
-    if (item !== undefined && item.price) {
-      let itemPrice = item.price.monthly || 0
-      itemPrice = convertPricePeriods(
-        itemPrice,
-        item.pricePeriod,
-        basketPageOptions?.pagePricePeriod
-      )
-      totalBasketPrice += itemPrice
+    if (item !== undefined && duration === 'monthly') {
+      // let itemPrice = item.price.monthly || 0
+      // itemPrice = convertPricePeriods(
+      //   itemPrice,
+      //   item.pricePeriod,
+      //   basketPageOptions?.pagePricePeriod
+      // )
+      totalMonthlyBasketPrice += item.price.monthly
     }
 
-    return totalBasketPrice
+    if (item !== undefined && duration === 'quarterly') {
+      let itemPrice = item.price.quarterly || 0
+
+      totalBasketPrice += item.price.quarterly
+    }
+
+    if (item !== undefined && duration === 'annually') {
+      let itemPrice = item.price.annualy || 0
+
+      totalBasketPrice += item.price.annualy
+    }
+    return { totalMonthlyBasketPrice, totalBasketPrice }
   }
 )

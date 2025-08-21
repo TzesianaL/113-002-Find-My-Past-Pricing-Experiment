@@ -10,7 +10,9 @@ import {
 } from 'redux/reducers/dataStore/dataStore.selectors'
 import { addOutput, OutputTypes } from 'redux/reducers/output/outputSlice'
 import {
+  addDurationToBasket,
   addItemToBasket,
+  addPriceToBasket,
   addSpeedItemToBasket,
 } from 'redux/reducers/logicStore/logicStore'
 import { useScrollToTop } from 'hooks/useScrollToTop'
@@ -40,8 +42,14 @@ const StoreScreen: FC = () => {
   // THIS VARIABLE SHOULD COME FROM DATA WHEN ADD ONs DATA STRUCTURE HAS BEEN CREATED
   // const showAddonsPage = true
 
-  const handleCardItemSelected = (id: string): void => {
+  const handleCardItemSelected = (
+    id: string,
+    price: number,
+    duration: string
+  ): void => {
     dispatch(addItemToBasket(id))
+    dispatch(addPriceToBasket(price))
+    dispatch(addDurationToBasket(duration))
     dispatch(addOutput({ key: OutputTypes.selectedItemID, value: id }))
     history.push('/addOnPage')
   }

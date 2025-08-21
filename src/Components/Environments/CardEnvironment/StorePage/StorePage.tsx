@@ -19,7 +19,7 @@ export interface StorePageProps {
   items: CardItem[]
   speedItems: SpeedCardItem[]
   onCancel: () => void
-  onSelect: (id: string) => void
+  onSelect: (id: string, price: number, duration: string) => void
   onSpeedSelect?: (id: string) => void
   cancelButtonText?: string
 }

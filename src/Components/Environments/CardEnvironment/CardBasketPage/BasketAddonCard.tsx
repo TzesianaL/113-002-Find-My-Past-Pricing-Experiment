@@ -31,15 +31,23 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
         <BasketAddonCardRowStyle key={selectedAddon.id}>
           <Title subtitle>{selectedAddon.title}</Title>
           {selectedAddon.price !== undefined && (
-            <Price
-              price={convertPricePeriods(
-                selectedAddon.price,
-                selectedAddon.pricePeriod,
-                convertedPricePeriod
-              )}
-              pricePeriod="month"
-              id={selectedAddon.title}
-            />
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                color: '#242048',
+                textAlign: 'center',
+              }}
+            >
+              <div style={{ fontWeight: 'bold', fontSize: '1.2em' }}>
+                £{selectedAddon.price.toFixed(2)}
+              </div>
+              <div style={{ fontSize: '0.8em', marginLeft: '0.5em' }}>
+                {' '}
+                monthly
+              </div>
+            </div>
           )}
         </BasketAddonCardRowStyle>
       ))}
