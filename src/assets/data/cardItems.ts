@@ -1281,7 +1281,7 @@ export const condition_7: CardItem[] = [
   {
     id: 'ITEM_3',
     title: 'Ultimate',
-    subtitle: `Access <span style="color: red; font-weight: bold; text-decoration: underline">all </span> our tools and features plus up to Unlimited views from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.</span>`,
+    subtitle: `Access <span style="color: red; font-weight: bold; text-decoration: underline">all </span> our tools and features plus up to <span style="color: red; font-weight: bold; text-decoration: underline">Unlimited</span> views from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.</span>`,
     subtitle2: `
     <div style="text-align:left; padding:1em">
       <p style="font-weight: bold;">Complete British and Irish record access.</p>
