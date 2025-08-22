@@ -34,13 +34,12 @@ const BasketRow: FC<BasketPageProps> = ({ image, text, price, duration }) => {
           textAlign: 'center',
         }}
       >
-        <div style={{ fontWeight: 'bold', fontSize: '1.2em' }}>
-          £{price.toFixed(2)}
+        <div style={{ fontWeight: 'bold', fontSize: '1em' }}>
+          £{price.toFixed(2)}/{duration}
         </div>
-        <div style={{ fontSize: '0.8em', marginLeft: '0.5em' }}>
-          {' '}
-          {duration}
-        </div>
+        {/* <div style={{ fontSize: '0.8em', marginLeft: '0.5em' }}>
+          / {duration}
+        </div> */}
       </div>
     </BasketRowStyle>
   )

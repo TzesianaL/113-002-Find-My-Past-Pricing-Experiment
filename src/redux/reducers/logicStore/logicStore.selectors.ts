@@ -68,6 +68,11 @@ export const getDuration = createSelector(
   (logic) => logic.duration
 )
 
+export const getCardMonthlyPrice = createSelector(
+  selectLogicStore,
+  (logic) => logic.monthlyPrice
+)
+
 export const getPCWProductInBasket = createSelector(
   selectLogicStore,
   selectPCWData,
@@ -215,7 +220,7 @@ export const getCost = createSelector(
 
     // sum up total addons price
     if (selectedAddons !== undefined && selectedAddons.length !== 0) {
-      totalMonthlyBasketPrice += selectedAddons.reduce(
+      totalBasketPrice += selectedAddons.reduce(
         (sum, basketAddon) =>
           sum +
           convertPricePeriods(
@@ -244,20 +249,20 @@ export const getCost = createSelector(
       //   item.pricePeriod,
       //   basketPageOptions?.pagePricePeriod
       // )
-      totalMonthlyBasketPrice += item.price.monthly
+      totalBasketPrice += item.price.monthly
     }
 
     if (item !== undefined && duration === 'quarterly') {
-      let itemPrice = item.price.quarterly || 0
+      // let itemPrice = item.price.quarterly || 0
 
       totalBasketPrice += item.price.quarterly
     }
 
     if (item !== undefined && duration === 'annually') {
-      let itemPrice = item.price.annualy || 0
+      // let itemPrice = item.price.annualy || 0
 
       totalBasketPrice += item.price.annualy
     }
-    return { totalMonthlyBasketPrice, totalBasketPrice }
+    return { totalBasketPrice }
   }
 )

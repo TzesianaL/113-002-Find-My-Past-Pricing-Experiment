@@ -14,6 +14,7 @@ import {
   addItemToBasket,
   addPriceToBasket,
   addSpeedItemToBasket,
+  addMonthlyPriceToBasket,
 } from 'redux/reducers/logicStore/logicStore'
 import { useScrollToTop } from 'hooks/useScrollToTop'
 import { usePageDuration } from 'hooks/usePageDuration'
@@ -45,11 +46,13 @@ const StoreScreen: FC = () => {
   const handleCardItemSelected = (
     id: string,
     price: number,
-    duration: string
+    duration: string,
+    monthlyPrice: number
   ): void => {
     dispatch(addItemToBasket(id))
     dispatch(addPriceToBasket(price))
     dispatch(addDurationToBasket(duration))
+    dispatch(addMonthlyPriceToBasket(monthlyPrice))
     dispatch(addOutput({ key: OutputTypes.selectedItemID, value: id }))
     history.push('/addOnPage')
   }

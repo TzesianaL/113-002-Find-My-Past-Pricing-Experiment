@@ -5,6 +5,7 @@ import { rehydrateFromJSON } from '../../globalActions/globalActions'
 export const initialState: LogicStateType = {
   basket: [],
   price: 0,
+  monthlyPrice: 0,
   duration: '',
   itemOrder: [],
   basketAddons: [],
@@ -24,6 +25,9 @@ const logicStoreSlice = createSlice({
     },
     addDurationToBasket(state, action: PayloadAction<string>): void {
       state.duration = action.payload
+    },
+    addMonthlyPriceToBasket(state, action: PayloadAction<number>): void {
+      state.monthlyPrice = action.payload
     },
     addSpeedItemToBasket(state, action: PayloadAction<string>): void {
       state.basketSpeedCardId = [action.payload]
@@ -122,6 +126,7 @@ const logicStoreSlice = createSlice({
 export const {
   addDurationToBasket,
   addPriceToBasket,
+  addMonthlyPriceToBasket,
   addItemToBasket,
   addSpeedItemToBasket,
   emptyBasket,

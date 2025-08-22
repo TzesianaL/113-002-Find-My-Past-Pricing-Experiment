@@ -30,7 +30,12 @@ export interface CardProps {
   priceString?: string
   hidePrice?: boolean
   features: string
-  onSelect: (id: string, price: number, duration: string) => void
+  onSelect: (
+    id: string,
+    price: number,
+    duration: string,
+    monthlyPrice: number
+  ) => void
   handleCardClick: (id: string) => void
   cardImage?: string
   purchaseButtonText?: string
@@ -176,7 +181,7 @@ const Card: FC<CardProps> = ({
                     border: '1px solid #242048',
                   }}
                   onClick={() => {
-                    onSelect(id, price.monthly, 'monthly')
+                    onSelect(id, price.monthly, 'monthly', price.monthly)
                     handleCardClick(id)
                   }}
                 >
@@ -224,7 +229,12 @@ const Card: FC<CardProps> = ({
                     border: '1px solid #242048',
                   }}
                   onClick={() => {
-                    onSelect(id, price.quarterly, 'quarterly')
+                    onSelect(
+                      id,
+                      price.quarterly,
+                      'quarterly',
+                      price.quarterlyMonthly
+                    )
                     handleCardClick(id)
                   }}
                 >
@@ -273,7 +283,7 @@ const Card: FC<CardProps> = ({
                     border: '1px solid #242048',
                   }}
                   onClick={() => {
-                    onSelect(id, price.annualy, 'annually')
+                    onSelect(id, price.annualy, 'annually', price.annualMonthly)
                     handleCardClick(id)
                   }}
                 >

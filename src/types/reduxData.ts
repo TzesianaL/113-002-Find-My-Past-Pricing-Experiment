@@ -75,6 +75,7 @@ export type DataStateType = {
 export interface LogicStateType {
   basket: string[]
   price: number
+  monthlyPrice: number
   duration: string
   itemOrder: number[]
   basketAddons: AddonData[]

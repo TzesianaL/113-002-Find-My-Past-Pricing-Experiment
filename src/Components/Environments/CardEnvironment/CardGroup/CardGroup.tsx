@@ -12,7 +12,12 @@ export interface CardGroupProps {
   hidePrice?: boolean
   purchaseButtonText?: string
   selected?: string
-  onSelect(id: string, price: number, duration: string): void
+  onSelect(
+    id: string,
+    price: number,
+    duration: string,
+    monthlyPrice: number
+  ): void
   handleCardClick(id: string): void
 }
 
@@ -30,8 +35,13 @@ const CardGroup: FC<CardGroupProps> = ({
 }) => {
   const anyHighlighted = items.some((item) => item.highlightedText)
 
-  const handleOnClick = (id: string, price: number, duration: string) => {
-    onSelect(id, price, duration)
+  const handleOnClick = (
+    id: string,
+    price: number,
+    duration: string,
+    monthlyPrice: number
+  ) => {
+    onSelect(id, price, duration, monthlyPrice)
   }
 
   return (
@@ -63,9 +73,12 @@ const CardGroup: FC<CardGroupProps> = ({
             features={item.features}
             pricePeriod={item.pricePeriod}
             highlightedText={item.highlightedText}
-            onSelect={(id: string, price: number, duration: string) =>
-              handleOnClick(id, price, duration)
-            }
+            onSelect={(
+              id: string,
+              price: number,
+              duration: string,
+              monthlyPrice: number
+            ) => handleOnClick(id, price, duration, monthlyPrice)}
             purchaseButtonText={
               item.id === selected ? 'Selected' : purchaseButtonText
             }

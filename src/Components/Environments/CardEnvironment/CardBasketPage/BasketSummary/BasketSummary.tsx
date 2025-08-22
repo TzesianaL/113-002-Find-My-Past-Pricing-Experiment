@@ -8,7 +8,10 @@ import { useSelector } from 'react-redux'
 import { get } from 'http'
 import {
   getBasketSpeedItem,
+  getCardMonthlyPrice,
   getCardPrice,
+  getCost,
+  getDuration,
 } from 'redux/reducers/logicStore/logicStore.selectors'
 
 interface BasketSummaryProps {
@@ -26,7 +29,10 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
   postPriceText,
   convertedPricePeriod,
 }) => {
-  const price = useSelector(getCardPrice)
+  const { totalBasketPrice } = useSelector(getCost)
+  const duration = useSelector(getDuration)
+  const cardPrice = useSelector(getCardPrice)
+
   return (
     <BasketSummaryStyle>
       <h2 style={{ color: '#242048' }}>Review your basket</h2>
@@ -34,16 +40,45 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
         cardImage={item.headerImage}
         title={item.title}
         subtitle={item.subtitle}
-        price={price}
-        upfrontPrice={item.upfrontPrice || 0}
+        // price={price}
+        // upfrontPrice={item.upfrontPrice || 0}
       />
 
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'flex-end',
+          fontSize: '17px',
+          fontWeight: '600',
+          paddingTop: '1em',
+        }}
+      >
+        <span>
+          Package cost for the first {duration === 'monthly' && 'month'}{' '}
+          {duration === 'quarterly' && 'quarter'}{' '}
+          {duration === 'annually' && 'year'}:&nbsp;{' '}
+        </span>
+        <span> &nbsp;£{cardPrice.toFixed(2)}</span>
+      </div>
+      <div
+        style={{
+          padding: '0 1em',
+          fontSize: '8px',
+          display: 'flex',
+          justifyContent: 'flex-end',
+        }}
+      >
+        *Your package subscription will renew automatically every
+        {duration === 'monthly' && 'month'}{' '}
+        {duration === 'quarterly' && 'quarter'}{' '}
+        {duration === 'annually' && 'year'} unless cancelled
+      </div>
+      <br />
       {addons.length > 0 && <h2>Add ons</h2>}
       <BasketAddonCard
         selectedAddons={addons}
         convertedPricePeriod={convertedPricePeriod}
       />
-
       <BasketPriceContainer
         prePriceText={prePriceText}
         postPriceText={postPriceText}

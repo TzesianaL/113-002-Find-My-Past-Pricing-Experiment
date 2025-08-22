@@ -17,7 +17,7 @@ const BasketPriceContainer: FC<BasketPriceContainerProps> = ({
   upfrontPrice,
 }) => {
   // Based on the page route PCW or Behaviourlab, price should be taken from the relevant selector-- needs modification when PCW redux store is ready
-  const { totalMonthlyBasketPrice, totalBasketPrice } = useSelector(getCost)
+  const { totalBasketPrice } = useSelector(getCost)
 
   const dispatch = useDispatch()
 
@@ -25,43 +25,28 @@ const BasketPriceContainer: FC<BasketPriceContainerProps> = ({
     dispatch(
       addOutput({
         key: OutputTypes.totalMonthlyPayment,
-        value: totalMonthlyBasketPrice.toFixed(2).toString(),
+        value: totalBasketPrice.toFixed(2).toString(),
       })
     )
-  }, [dispatch, totalMonthlyBasketPrice])
+  }, [dispatch, totalBasketPrice])
   return (
     <BasketPriceContainerStyle>
       {prePriceText && (
         <div dangerouslySetInnerHTML={{ __html: prePriceText }} />
       )}
       <br />
-      {totalBasketPrice !== 0 && (
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            fontSize: '18px',
-            fontWeight: '600',
-            marginTop: '10px',
-          }}
-        >
-          <span>Total Price:&nbsp;</span>
-          <span> £{totalBasketPrice.toFixed(2)}</span>
-        </div>
-      )}
-      {totalMonthlyBasketPrice !== 0 && (
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            fontSize: '18px',
-            fontWeight: '600',
-          }}
-        >
-          <span>Total Monthly Price:&nbsp; </span>
-          <span> &nbsp;£{totalMonthlyBasketPrice.toFixed(2)}</span>
-        </div>
-      )}
+
+      <div
+        style={{
+          display: 'flex',
+          margin: 'auto',
+          fontSize: '25px',
+          fontWeight: '600',
+        }}
+      >
+        <span>Total amount due today :&nbsp;</span>
+        <span> £{totalBasketPrice.toFixed(2)}</span>
+      </div>
 
       {postPriceText && (
         <div dangerouslySetInnerHTML={{ __html: postPriceText }} />

@@ -1,11 +1,9 @@
 import React, { FC } from 'react'
 import Title from 'Components/Shared/Title/Title'
-import { AddonData } from 'types'
-import Price from 'Components/Shared/Price/Price'
 import BasketRow from '../BasketRow/BasketRow'
 import { BasketCardStyle, BasketCardRow } from './BasketCardStyle'
 import { useSelector } from 'react-redux'
-import { getDuration } from 'redux/reducers/logicStore/logicStore.selectors'
+import { getCardMonthlyPrice } from 'redux/reducers/logicStore/logicStore.selectors'
 
 /**
  * CardProps contains all appropriate props we should pass to nested components.
@@ -14,21 +12,14 @@ export interface BasketCardProps {
   title: string
   subtitle?: string
   cardImage?: string
-  price?: number
-  upfrontPrice?: number
 }
 
 /**
  * BasketCard is used to wrap all components we render in order to display selected Card.
  * ThemeProvider component is used. By using the theme object we provide same styling options to all components.
  */
-const BasketCard: FC<BasketCardProps> = ({
-  title,
-  subtitle,
-  price,
-  upfrontPrice,
-}) => {
-  const duration = useSelector(getDuration)
+const BasketCard: FC<BasketCardProps> = ({ title, subtitle }) => {
+  const monthlyPrice = useSelector(getCardMonthlyPrice)
   return (
     <BasketCardRow>
       <BasketCardStyle>
@@ -40,7 +31,7 @@ const BasketCard: FC<BasketCardProps> = ({
             borderTopRightRadius: '10px',
           }}
         >
-          <BasketRow text={title} price={price} duration={duration} />
+          <BasketRow text={title} price={monthlyPrice} duration="month" />
         </div>
         <Title subtitle style={{ padding: '1em' }}>
           {subtitle !== undefined && (
