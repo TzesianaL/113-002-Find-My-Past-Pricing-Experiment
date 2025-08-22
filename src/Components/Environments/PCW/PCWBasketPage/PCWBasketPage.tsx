@@ -56,7 +56,7 @@ const PCWBasketPage: FC<PCWBasketPageProps> = ({
     dispatch(addOutput({ key: OutputTypes.emptyBasket, value: 'true' }))
     dispatch(addOutput({ key: OutputTypes.selectedItemID, value: '0' }))
     dispatch(addOutput({ key: OutputTypes.bundle, value: '0' }))
-    dispatch(addOutput({ key: OutputTypes.cardSpeed, value: '0' }))
+    // dispatch(addOutput({ key: OutputTypes.cardSpeed, value: '0' }))
     dispatch(addOutput({ key: OutputTypes.answers, value: '0' }))
     dispatch(addOutput({ key: OutputTypes.speedBoost, value: '0' }))
     dispatch(addOutput({ key: OutputTypes.wifiWalk, value: '0' }))
