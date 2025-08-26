@@ -63,6 +63,7 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
       <div
         style={{
           padding: '0 1em',
+          paddingTop: '1em',
           fontSize: '8px',
           display: 'flex',
           justifyContent: 'flex-end',
@@ -74,7 +75,7 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
         {duration === 'annually' && 'year'} unless cancelled
       </div>
       <br />
-      {addons.length > 0 && <h2>Add ons</h2>}
+      {addons.length > 0 && <h2>Add-ons</h2>}
       <BasketAddonCard
         selectedAddons={addons}
         convertedPricePeriod={convertedPricePeriod}

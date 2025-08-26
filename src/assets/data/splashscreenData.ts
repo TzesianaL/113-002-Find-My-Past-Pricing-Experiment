@@ -52,8 +52,8 @@ export const baseSplashScreen: { title: string; items: SplashItem[] } = {
       <ul style="font-size: 20px; padding-left: 20px;">
         <li style="margin-bottom: 8px;">Follow your ancestors along the paths they took in life in our billions of British and Irish genealogy records.</li>
         <li style="margin-bottom: 8px;">Explore our exclusive and unique records. From key national collections to millions of local and regional resources, see your family in a different light.</li>
-        <li style="margin-bottom: 8px;">The home of the British Newspaper Archive – the largest online collection of British and Irish Newspaper in the world.</li>
-        <li style="margin-bottom: 8px;">Exclusive product features like Maps and Workspaces, or advanced research tool, bring a new way for you to expand your tree.</li>
+        <li style="margin-bottom: 8px;">The home of the British newspapers archive – the largest online collection of British and Irish newspapers in the world.</li>
+        <li style="margin-bottom: 8px;">Exclusive product features like Maps and Workspaces, or our advanced research tool, bring a new way for you to expand your tree.</li>
       </ul>
        `,
     },

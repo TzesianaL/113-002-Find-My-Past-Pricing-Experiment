@@ -81,8 +81,15 @@ const Card: FC<CardProps> = ({
 
   // Calculate dynamic height based on features expansion and selected condition
   let baseHeight = '850px'
+  let subtitleHeight
+
+  if (selectedCondition === 4) {
+    subtitleHeight = '50px'
+  }
+
   if (selectedCondition === 5) {
-    baseHeight = '900px' // Slightly higher for scenario 5
+    subtitleHeight = '70px'
+    baseHeight = '1000px' // Slightly higher for scenario 5
   }
 
   if (selectedCondition === 6) {
@@ -105,7 +112,7 @@ const Card: FC<CardProps> = ({
     // For condition 6, we set a specific height
     subTitle2Style = '525px'
   }
-  if (selectedCondition === 7) {
+  if (selectedCondition === 7 || selectedCondition === 5) {
     // For condition 7, we set a specific height
     subTitle2Style = '530px'
   }
@@ -131,7 +138,7 @@ const Card: FC<CardProps> = ({
             dangerouslySetInnerHTML={{ __html: subtitle }}
             style={{
               padding: '0.7em',
-              height: selectedCondition === 5 && '60px',
+              height: subtitleHeight,
             }}
           />
         </div>

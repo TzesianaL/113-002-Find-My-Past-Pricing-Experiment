@@ -61,24 +61,25 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
             style={{
               display: 'flex',
               justifyContent: 'flex-end',
+              paddingTop: '1em',
               fontSize: '17px',
               fontWeight: '600',
-              paddingTop: '1em',
             }}
           >
-            <span>Addon cost for the first month :</span>
+            <span>Add-on cost for the first month :</span>
             <span> &nbsp; £{addonTotalCost.toFixed(2)}</span>
           </div>
           <div
             style={{
               padding: '0 1em',
+              paddingTop: '1em',
               fontSize: '8px',
               display: 'flex',
               justifyContent: 'flex-end',
             }}
           >
-            *Your addon subscription will renew automatically every month unless
-            cancelled
+            *Your add-on subscription will renew automatically every month
+            unless cancelled
           </div>
         </>
       )}

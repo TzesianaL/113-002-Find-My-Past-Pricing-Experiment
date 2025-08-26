@@ -110,7 +110,7 @@ export const baseStoreItems: CardItem[] = [
       quarterly: 59.99,
       quarterlyMonthly: 19.99,
       annualy: 199.99,
-      annualMonthly: 16.67,
+      annualMonthly: 16.99,
     },
     upfrontPrice: 0,
     priceString: '',
@@ -641,8 +641,8 @@ export const condition_5: CardItem[] = [
   },
   {
     id: 'ITEM_2',
-    title: 'Ultimate Pay up Front',
-    subtitle: `Everything on Findmypast - delve even deeper, follow every thread - pay for your year in advance and save. `,
+    title: 'Ultimate - Pay Up Front',
+    subtitle: `Everything on Findmypast - delve even deeper, follow every thread. Pay for your year in advance and save. `,
     subtitle2: `
     <div style="text-align:left; padding:1em">
       <p style="font-weight: bold;">All records</p>
@@ -919,17 +919,17 @@ export const condition_6: CardItem[] = [
     <div style="text-align:left; padding:1em">
       <p style="font-weight: bold;">Detail-rich records you won't find elsewhere.</p>
       <div>Flesh out your family tree with stories from our exclusive military, migration and church record collections. Discover amazing detail with the 1939 register and millions of extra records.</div>
-      <p style="font-weight: bold;">Exclusive product features.</p>
-      <div>View you tree like never before with our amazing Maps product, tracing your family not just over time but space too.</div>
-      <p style="font-weight: bold;">Exclusive product features.</p>
-      <div>View you tree like never before with our amazing Maps product, tracing your family not just over time but space too.</div>
-       <p style="font-weight: bold;">Searching made easy.</p>
+
+     <p style="font-weight: bold;">Exclusive product features.</p>
+      <div>View your tree like never before with our amazing Maps product, tracing your family not just over time but space too.</div>
+      
+      <p style="font-weight: bold;">Searching made easy.</p>
       <div>Our unique Advanced Search tools help you find relevant records instantly. While Tree Search harnesses the power of the Findmypast community to unlock new connections.</div>
     </div>`,
     price: {
       monthly: 13.99,
       quarterly: 35.99,
-      quarterlyMonthly: 12.0,
+      quarterlyMonthly: 11.99,
       annualy: 99.99,
       annualMonthly: 8.33,
     },
@@ -1205,7 +1205,7 @@ export const condition_7: CardItem[] = [
     price: {
       monthly: 13.99,
       quarterly: 35.99,
-      quarterlyMonthly: 12.0,
+      quarterlyMonthly: 11.99,
       annualy: 99.99,
       annualMonthly: 8.33,
     },
@@ -1296,7 +1296,7 @@ export const condition_7: CardItem[] = [
     price: {
       monthly: 13.99,
       quarterly: 35.99,
-      quarterlyMonthly: 12.0,
+      quarterlyMonthly: 11.99,
       annualy: 99.99,
       annualMonthly: 8.33,
     },
@@ -1470,7 +1470,7 @@ export const condition_8: CardItem[] = [
       <div> Flesh out your family tree with stories from our exclusive military, migration and church record collections. Discover amazing detail with the 1939 register and millions of extra records.</div>
       
       <p style="font-weight: bold;">Exclusive product features.</p>
-      <div>View you tree like never before with our amazing Maps product, tracing your family not just over time but space too.</div>
+      <div>View your tree like never before with our amazing Maps product, tracing your family not just over time but space too.</div>
       
       <p style="font-weight: bold;">Searching made easy.</p>
       <div>Our unique Advanced Search tools help you find relevant records instantly. While Tree Search harnesses the power of the Findmypast community to unlock new connections. </div>
@@ -1479,7 +1479,7 @@ export const condition_8: CardItem[] = [
     price: {
       monthly: 13.99,
       quarterly: 35.99,
-      quarterlyMonthly: 12.0,
+      quarterlyMonthly: 11.99,
       annualy: 99.99,
       annualMonthly: 8.33,
     },

@@ -47,7 +47,7 @@ const AddonPage: FC<AddonPageProps> = ({
           dangerouslySetInnerHTML={{ __html: introText }}
         />
       )}
-      <h2 style={{ color: '#242048' }}>Choose your add ons (optional)</h2>
+      <h2 style={{ color: '#242048' }}>Choose your add-ons (optional)</h2>
       <AddonGroup data={data} layout={layout} />
       {footerText && (
         <div
