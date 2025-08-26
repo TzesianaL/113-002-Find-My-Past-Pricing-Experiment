@@ -58,7 +58,8 @@ export const ConditionSelector: FC<ConditionSelectorProps> = ({
         {conditionList.map((condition) => {
           return (
             <option value={condition} key={condition}>
-              {condition} - {dataFile.conditions?.[condition].conditionName}
+              {/* {condition} -  */}
+              {dataFile.conditions?.[condition].conditionName}
             </option>
           )
         })}

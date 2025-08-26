@@ -19,8 +19,8 @@ import { speedItemsBaseline } from './speedItems'
 import { cardAddonLayout } from 'StandardLayouts/AddonLayouts'
 
 export const conditionData: { [key: number]: ConditionType } = {
-  1: {
-    conditionName: 'Scenario 1 - Baseline',
+  0: {
+    conditionName: 'Baseline',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: baseStoreItems,
@@ -30,8 +30,8 @@ export const conditionData: { [key: number]: ConditionType } = {
     // storeAddons: baseAddonData,
     addonLayout: cardAddonLayout,
   },
-  2: {
-    conditionName: 'Scenario 2 - Baseline + Addons',
+  1: {
+    conditionName: 'Baseline + Addons',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: baseStoreItems,
@@ -41,8 +41,8 @@ export const conditionData: { [key: number]: ConditionType } = {
     storeAddons: baseAddonData,
     addonLayout: cardAddonLayout,
   },
-  3: {
-    conditionName: 'Scenario 3 - Baseline price drop',
+  2: {
+    conditionName: 'Baseline price drop',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: condition_3,
@@ -52,8 +52,8 @@ export const conditionData: { [key: number]: ConditionType } = {
     storeAddons: baseAddonData,
     addonLayout: cardAddonLayout,
   },
-  4: {
-    conditionName: 'Scenario 4 - Improved baseline',
+  3: {
+    conditionName: 'Improved baseline',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: condition_4,
@@ -63,8 +63,8 @@ export const conditionData: { [key: number]: ConditionType } = {
     storeAddons: baseAddonData,
     addonLayout: cardAddonLayout,
   },
-  5: {
-    conditionName: 'Scenario 5 - Pay monthly',
+  4: {
+    conditionName: 'Pay monthly',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: condition_5,
@@ -74,8 +74,8 @@ export const conditionData: { [key: number]: ConditionType } = {
     storeAddons: baseAddonData,
     addonLayout: cardAddonLayout,
   },
-  6: {
-    conditionName: 'Scenario 6 - Third Tier Features',
+  5: {
+    conditionName: 'Third Tier Features',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: condition_6,
@@ -85,8 +85,8 @@ export const conditionData: { [key: number]: ConditionType } = {
     storeAddons: condition_6_addons,
     addonLayout: cardAddonLayout,
   },
-  7: {
-    conditionName: 'Scenario 7 - Third Tier Volume',
+  6: {
+    conditionName: 'Third Tier Volume',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: condition_7,
@@ -95,8 +95,8 @@ export const conditionData: { [key: number]: ConditionType } = {
     basketPageOptions: baseBasketPageOptions,
     addonLayout: cardAddonLayout,
   },
-  8: {
-    conditionName: 'Scenario 8 - Third Tier Feature Price Drop',
+  7: {
+    conditionName: 'Third Tier Feature Price Drop',
     storePageOptions: baseStorePageOptions,
     splash: baseSplashScreen,
     storeItems: condition_8,
