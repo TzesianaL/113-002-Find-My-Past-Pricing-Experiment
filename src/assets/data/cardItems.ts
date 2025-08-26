@@ -1099,7 +1099,7 @@ export const condition_7: CardItem[] = [
   {
     id: 'ITEM_1',
     title: 'Family Tree Essential',
-    subtitle: `Access all our tools and features plus up to <span style="color: red; font-weight: bold; text-decoration: underline">10 views</span> per month from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.`,
+    subtitle: `Access all our tools and features plus <span style="color: red; font-weight: bold; text-decoration: underline">10 views</span> per month from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.`,
     subtitle2: `
     <div style="text-align:left; padding:1em">
       <p style="font-weight: bold;">Complete British and Irish record access.</p>
@@ -1190,7 +1190,7 @@ export const condition_7: CardItem[] = [
   {
     id: 'ITEM_2',
     title: 'Premium',
-    subtitle: `Access all our tools and features plus up to <span style="color: red; font-weight: bold; text-decoration: underline">30 views</span> per month from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.`,
+    subtitle: `Access all our tools and features plus <span style="color: red; font-weight: bold; text-decoration: underline">30 views</span> per month from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.`,
     subtitle2: `
     <div style="text-align:left; padding:1em">
       <p style="font-weight: bold;">Complete British and Irish record access.</p>
@@ -1281,7 +1281,7 @@ export const condition_7: CardItem[] = [
   {
     id: 'ITEM_3',
     title: 'Ultimate',
-    subtitle: `Access <span style="color: red; font-weight: bold; text-decoration: underline">all </span> our tools and features plus up to <span style="color: red; font-weight: bold; text-decoration: underline">Unlimited</span> views from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.</span>`,
+    subtitle: `Access <span style="color: red; font-weight: bold; text-decoration: underline">all </span> our tools and features plus <span style="color: red; font-weight: bold; text-decoration: underline">Unlimited</span> views from our archive of billions of British, Irish and Worldwide genealogy records and Newspapers.</span>`,
     subtitle2: `
     <div style="text-align:left; padding:1em">
       <p style="font-weight: bold;">Complete British and Irish record access.</p>
@@ -1294,11 +1294,11 @@ export const condition_7: CardItem[] = [
       <div>With access to our complete global and Commonwealth collections, track your ancestors' origins, new beginnings and final journeys.</div>
       </div>`,
     price: {
-      monthly: 13.99,
-      quarterly: 35.99,
-      quarterlyMonthly: 11.99,
-      annualy: 99.99,
-      annualMonthly: 8.33,
+      monthly: 24.99,
+      quarterly: 59.99,
+      quarterlyMonthly: 19.99,
+      annualy: 199.99,
+      annualMonthly: 16.67,
     },
     upfrontPrice: 0,
     priceString: '',
@@ -1568,7 +1568,7 @@ export const condition_8: CardItem[] = [
       <div>Store, sort and summarise your family discoveries so you never miss a thread and can pick up right where you left off.</div>
     
       <p style="font-weight: bold;">Worldwide records.</p>
-      <div>With access to our complete global and Commonwealth collections, track your ancestors' origins, new beginnings and final journeys</div>
+      <div>With access to our complete global and Commonwealth collections, track your ancestors' origins, new beginnings and final journeys.</div>
     </div>`,
     price: {
       monthly: 24.99,
