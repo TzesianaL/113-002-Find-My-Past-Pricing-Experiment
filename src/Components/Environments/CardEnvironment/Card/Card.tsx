@@ -196,18 +196,34 @@ const Card: FC<CardProps> = ({
                 </Button>
               </div>
 
-              <div
-                style={{
-                  fontSize: '0.8em',
-                  textAlign: 'left',
-                  paddingLeft: '1.5em',
-                  paddingRight: '1.5em',
-                  paddingTop: '0.5em',
-                }}
-              >
-                *Billed as a single payment of £{price.monthly.toFixed(2)}.
-                Automatic billing, cancel any time.
-              </div>
+              {selectedCondition !== 4 && (
+                <div
+                  style={{
+                    fontSize: '0.8em',
+                    textAlign: 'left',
+                    paddingLeft: '1.5em',
+                    paddingRight: '1.5em',
+                    paddingTop: '0.5em',
+                  }}
+                >
+                  *Billed as a single payment of £{price.monthly.toFixed(2)}.
+                  Automatic billing, cancel any time.
+                </div>
+              )}
+              {selectedCondition === 4 && (
+                <div
+                  style={{
+                    fontSize: '0.8em',
+                    textAlign: 'left',
+                    paddingLeft: '1.5em',
+                    paddingRight: '1.5em',
+                    paddingTop: '0.5em',
+                  }}
+                >
+                  *Billed £{price.monthly.toFixed(2)} every month for each
+                  month, with no cancellation allowed during this period.
+                </div>
+              )}
             </>
           )}
           {price.quarterly !== undefined && (
@@ -249,18 +265,34 @@ const Card: FC<CardProps> = ({
                 </Button>
               </div>
 
-              <div
-                style={{
-                  fontSize: '0.8em',
-                  textAlign: 'left',
-                  paddingLeft: '1.5em',
-                  paddingRight: '1.5em',
-                  paddingTop: '0.5em',
-                }}
-              >
-                *Billed as a single payment of £{price.quarterly.toFixed(2)}.
-                Automatic billing, cancel any time.
-              </div>
+              {selectedCondition !== 4 && (
+                <div
+                  style={{
+                    fontSize: '0.8em',
+                    textAlign: 'left',
+                    paddingLeft: '1.5em',
+                    paddingRight: '1.5em',
+                    paddingTop: '0.5em',
+                  }}
+                >
+                  *Billed as a single payment of £{price.quarterly.toFixed(2)}.
+                  Automatic billing, cancel any time.
+                </div>
+              )}
+              {selectedCondition === 4 && (
+                <div
+                  style={{
+                    fontSize: '0.8em',
+                    textAlign: 'left',
+                    paddingLeft: '1.5em',
+                    paddingRight: '1.5em',
+                    paddingTop: '0.5em',
+                  }}
+                >
+                  *Billed £{price.quarterly.toFixed(2)} every month for 3
+                  months, with no cancellation allowed during this period.
+                </div>
+              )}
               <hr style={{ width: '90%' }} />
             </>
           )}
@@ -298,18 +330,35 @@ const Card: FC<CardProps> = ({
                 </Button>
               </div>
 
-              <div
-                style={{
-                  fontSize: '0.8em',
-                  textAlign: 'left',
-                  paddingLeft: '1.5em',
-                  paddingRight: '1.5em',
-                  paddingTop: '0.5em',
-                }}
-              >
-                *Billed as a single payment of £{price.annualy.toFixed(2)}.
-                Automatic billing, cancel any time.
-              </div>
+              {selectedCondition !== 4 && (
+                <div
+                  style={{
+                    fontSize: '0.8em',
+                    textAlign: 'left',
+                    paddingLeft: '1.5em',
+                    paddingRight: '1.5em',
+                    paddingTop: '0.5em',
+                  }}
+                >
+                  *Billed as a single payment of £{price.annualy.toFixed(2)}.
+                  Automatic billing, cancel any time.
+                </div>
+              )}
+
+              {selectedCondition === 4 && (
+                <div
+                  style={{
+                    fontSize: '0.8em',
+                    textAlign: 'left',
+                    paddingLeft: '1.5em',
+                    paddingRight: '1.5em',
+                    paddingTop: '0.5em',
+                  }}
+                >
+                  *Billed £{price.annualy.toFixed(2)} every month for 12 months,
+                  with no cancellation allowed during this period.
+                </div>
+              )}
             </>
           )}
         </div>
