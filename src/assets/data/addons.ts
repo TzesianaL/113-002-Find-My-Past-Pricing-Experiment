@@ -11,6 +11,7 @@ export const baseAddonData: AddonData[] = [
     features: [],
     price: 7.99,
     pricePeriod: 'month',
+    excludedProductIDs: ['ITEM_2', 'ITEM_3'],
   },
   {
     id: 'Addon2',
@@ -21,6 +22,7 @@ export const baseAddonData: AddonData[] = [
     features: [],
     price: 4.99,
     pricePeriod: 'month',
+    excludedProductIDs: ['ITEM_2', 'ITEM_3'],
   },
   {
     id: 'Addon3',
@@ -31,6 +33,7 @@ export const baseAddonData: AddonData[] = [
     features: [],
     price: 4.99,
     pricePeriod: 'month',
+    excludedProductIDs: ['ITEM_2', 'ITEM_3'],
   },
 ]
 
@@ -45,6 +48,7 @@ export const condition_6_addons: AddonData[] = [
     features: [],
     price: 7.99,
     pricePeriod: 'month',
+    excludedProductIDs: ['ITEM_3'],
   },
   {
     id: 'Addon2',
@@ -55,6 +59,7 @@ export const condition_6_addons: AddonData[] = [
     features: [],
     price: 4.99,
     pricePeriod: 'month',
+    excludedProductIDs: ['ITEM_3'],
   },
   {
     id: 'Addon3',
@@ -65,6 +70,7 @@ export const condition_6_addons: AddonData[] = [
     features: [],
     price: 4.99,
     pricePeriod: 'month',
+    excludedProductIDs: ['ITEM_3'],
   },
 ]
 
@@ -78,6 +84,7 @@ export const condition_8_addons: AddonData[] = [
       "Add complete access to the British newspapers archive - the world's largest online collection of British and Irish newspapers",
     features: [],
     price: 7.99,
+    excludedProductIDs: ['ITEM_3'],
     pricePeriod: 'month',
   },
   {
@@ -88,6 +95,7 @@ export const condition_8_addons: AddonData[] = [
     // group: 3,
     features: [],
     price: 4.99,
+    excludedProductIDs: ['ITEM_3'],
     pricePeriod: 'month',
   },
   {
@@ -99,5 +107,6 @@ export const condition_8_addons: AddonData[] = [
     features: [],
     price: 4.99,
     pricePeriod: 'month',
+    excludedProductIDs: ['ITEM_3'],
   },
 ]

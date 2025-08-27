@@ -748,9 +748,9 @@ export const condition_5: CardItem[] = [
     price: {
       monthly: 24.99,
       quarterly: 60,
-      quarterlyMonthly: 20,
+      quarterlyMonthly: 60,
       annualy: 203.88,
-      annualMonthly: 16.99,
+      annualMonthly: 203.88,
     },
     upfrontPrice: 0,
     priceString: '',
