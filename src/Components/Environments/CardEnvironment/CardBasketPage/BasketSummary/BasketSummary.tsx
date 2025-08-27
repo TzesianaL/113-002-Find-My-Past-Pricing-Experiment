@@ -64,12 +64,12 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
         style={{
           padding: '0 1em',
           paddingTop: '1em',
-          fontSize: '8px',
+          fontSize: '11px',
           display: 'flex',
           justifyContent: 'flex-end',
         }}
       >
-        *Your package subscription will renew automatically every
+        *Your package subscription will renew automatically every{' '}
         {duration === 'monthly' && 'month'}{' '}
         {duration === 'quarterly' && 'quarter'}{' '}
         {duration === 'annually' && 'year'} unless cancelled

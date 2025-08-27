@@ -43,13 +43,12 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
                   textAlign: 'center',
                 }}
               >
-                <div style={{ fontWeight: 'bold', fontSize: '1.2em' }}>
-                  £{selectedAddon.price.toFixed(2)}
-                </div>
-                <div style={{ fontSize: '0.8em', marginLeft: '0.5em' }}>
-                  {' '}
-                  monthly
-                </div>
+                <span style={{ fontWeight: 'bold', fontSize: '1em' }}>
+                  £{selectedAddon.price.toFixed(2)}/month
+                  {/* <span style={{ fontSize: '0.8em', marginLeft: '0.5em' }}>
+                    /month
+                  </span> */}
+                </span>
               </div>
             )}
           </BasketAddonCardRowStyle>
@@ -73,7 +72,7 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
             style={{
               padding: '0 1em',
               paddingTop: '1em',
-              fontSize: '8px',
+              fontSize: '11px',
               display: 'flex',
               justifyContent: 'flex-end',
             }}
