@@ -210,7 +210,7 @@ const Card: FC<CardProps> = ({
                   Automatic billing, cancel any time.
                 </div>
               )}
-              {title === 'Ultimate - Pay Monthly' && (
+              {/* {title !== 'Ultimate - Pay Monthly' && (
                 <div
                   style={{
                     fontSize: '0.8em',
@@ -223,7 +223,7 @@ const Card: FC<CardProps> = ({
                   *Billed £{price.monthly.toFixed(2)} every month for each
                   month, with no cancellation allowed during this period.
                 </div>
-              )}
+              )} */}
             </>
           )}
           {price.quarterly !== undefined && (

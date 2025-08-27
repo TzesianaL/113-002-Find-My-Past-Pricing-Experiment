@@ -73,28 +73,30 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
       </div>
       <div
         style={{
+          display: 'flex',
+          justifyContent: 'flex-end',
           padding: '0 1em',
           paddingTop: '1em',
           fontSize: '11px',
-          display: 'flex',
-          justifyContent: 'flex-end',
+          width: '100%',
         }}
       >
-        *Your package subscription will renew automatically every{' '}
-        {duration === 'monthly' && 'month'}{' '}
-        {duration === 'quarterly' &&
-          item.title !== 'Ultimate - Pay Monthly' &&
-          'quarter'}{' '}
-        {duration === 'annually' &&
-          item.title !== 'Ultimate - Pay Monthly' &&
-          'year'}{' '}
-        {duration === 'quarterly' &&
-          item.title === 'Ultimate - Pay Monthly' &&
-          'month'}{' '}
-        {duration === 'annually' &&
-          item.title === 'Ultimate - Pay Monthly' &&
-          'month'}{' '}
-        unless cancelled
+        <div style={{ width: '280px', textAlign: 'left' }}>
+          {duration === 'monthly' &&
+            '*Your package subscription will renew automatically every month unless cancelled'}
+          {duration === 'quarterly' &&
+            item.title !== 'Ultimate - Pay Monthly' &&
+            '*Your package subscription will renew automatically every quarter unless cancelled'}
+          {duration === 'annually' &&
+            item.title !== 'Ultimate - Pay Monthly' &&
+            '*Your package subscription will renew automatically every year unless cancelled'}
+          {duration === 'quarterly' &&
+            item.title === 'Ultimate - Pay Monthly' &&
+            '*Your package subscription will be billed every month for 3 months, with no cancellation allowed during this period.'}
+          {duration === 'annually' &&
+            item.title === 'Ultimate - Pay Monthly' &&
+            '*Your package subscription will be billed every month for 12 months, with no cancellation allowed during this period.'}
+        </div>
       </div>
       <br />
       {addons.length > 0 && <h2>Add-ons</h2>}
