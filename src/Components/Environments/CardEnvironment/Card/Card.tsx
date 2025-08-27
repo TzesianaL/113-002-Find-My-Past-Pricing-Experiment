@@ -196,7 +196,7 @@ const Card: FC<CardProps> = ({
                 </Button>
               </div>
 
-              {selectedCondition !== 4 && (
+              {title !== 'Ultimate - Pay Monthly' && (
                 <div
                   style={{
                     fontSize: '0.8em',
@@ -210,7 +210,7 @@ const Card: FC<CardProps> = ({
                   Automatic billing, cancel any time.
                 </div>
               )}
-              {selectedCondition === 4 && (
+              {title === 'Ultimate - Pay Monthly' && (
                 <div
                   style={{
                     fontSize: '0.8em',
@@ -265,7 +265,7 @@ const Card: FC<CardProps> = ({
                 </Button>
               </div>
 
-              {selectedCondition !== 4 && (
+              {title !== 'Ultimate - Pay Monthly' && (
                 <div
                   style={{
                     fontSize: '0.8em',
@@ -279,7 +279,7 @@ const Card: FC<CardProps> = ({
                   Automatic billing, cancel any time.
                 </div>
               )}
-              {selectedCondition === 4 && (
+              {title === 'Ultimate - Pay Monthly' && (
                 <div
                   style={{
                     fontSize: '0.8em',
@@ -289,7 +289,7 @@ const Card: FC<CardProps> = ({
                     paddingTop: '0.5em',
                   }}
                 >
-                  *Billed £{price.quarterly.toFixed(2)} every month for 3
+                  *Billed £{price.quarterlyMonthly.toFixed(2)} every month for 3
                   months, with no cancellation allowed during this period.
                 </div>
               )}
@@ -330,7 +330,7 @@ const Card: FC<CardProps> = ({
                 </Button>
               </div>
 
-              {selectedCondition !== 4 && (
+              {title !== 'Ultimate - Pay Monthly' && (
                 <div
                   style={{
                     fontSize: '0.8em',
@@ -345,7 +345,7 @@ const Card: FC<CardProps> = ({
                 </div>
               )}
 
-              {selectedCondition === 4 && (
+              {title === 'Ultimate - Pay Monthly' && (
                 <div
                   style={{
                     fontSize: '0.8em',
@@ -355,8 +355,8 @@ const Card: FC<CardProps> = ({
                     paddingTop: '0.5em',
                   }}
                 >
-                  *Billed £{price.annualy.toFixed(2)} every month for 12 months,
-                  with no cancellation allowed during this period.
+                  *Billed £{price.annualy.toFixed(2)} every 12 months, with no
+                  cancellation allowed during this period.
                 </div>
               )}
             </>
