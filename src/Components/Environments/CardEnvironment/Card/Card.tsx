@@ -355,8 +355,8 @@ const Card: FC<CardProps> = ({
                     paddingTop: '0.5em',
                   }}
                 >
-                  *Billed £{price.annualy.toFixed(2)} every 12 months, with no
-                  cancellation allowed during this period.
+                  *Billed £{price.annualy.toFixed(2)} every month for 12 months,
+                  with no cancellation allowed during this period.
                 </div>
               )}
             </>
