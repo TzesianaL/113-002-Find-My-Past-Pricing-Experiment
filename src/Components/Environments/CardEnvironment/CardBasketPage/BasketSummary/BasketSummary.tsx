@@ -55,8 +55,19 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
       >
         <span>
           Package cost for the first {duration === 'monthly' && 'month'}{' '}
-          {duration === 'quarterly' && 'quarter'}{' '}
-          {duration === 'annually' && 'year'}:&nbsp;{' '}
+          {duration === 'quarterly' &&
+            item.title !== 'Ultimate - Pay Monthly' &&
+            'quarter'}{' '}
+          {duration === 'annually' &&
+            item.title !== 'Ultimate - Pay Monthly' &&
+            'year'}
+          {duration === 'annually' &&
+            item.title === 'Ultimate - Pay Monthly' &&
+            'month'}
+          {duration === 'quarterly' &&
+            item.title === 'Ultimate - Pay Monthly' &&
+            'month'}
+          :&nbsp;{' '}
         </span>
         <span> &nbsp;£{cardPrice.toFixed(2)}</span>
       </div>
@@ -71,8 +82,19 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
       >
         *Your package subscription will renew automatically every{' '}
         {duration === 'monthly' && 'month'}{' '}
-        {duration === 'quarterly' && 'quarter'}{' '}
-        {duration === 'annually' && 'year'} unless cancelled
+        {duration === 'quarterly' &&
+          item.title !== 'Ultimate - Pay Monthly' &&
+          'quarter'}{' '}
+        {duration === 'annually' &&
+          item.title !== 'Ultimate - Pay Monthly' &&
+          'year'}{' '}
+        {duration === 'quarterly' &&
+          item.title === 'Ultimate - Pay Monthly' &&
+          'month'}{' '}
+        {duration === 'annually' &&
+          item.title === 'Ultimate - Pay Monthly' &&
+          'month'}{' '}
+        unless cancelled
       </div>
       <br />
       {addons.length > 0 && <h2>Add-ons</h2>}
