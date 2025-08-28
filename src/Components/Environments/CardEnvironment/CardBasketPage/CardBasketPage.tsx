@@ -1,5 +1,5 @@
 import React, { FC, useEffect } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { merge } from 'lodash-es'
 import { ThemeProvider } from 'styled-components'
 import { CardItem, AddonData, Periods } from 'types'
@@ -7,6 +7,7 @@ import { addOutput, OutputTypes } from 'redux/reducers/output/outputSlice'
 import BasketPage from 'Components/Shared/BasketPage/BasketPage'
 import { BasketCardWrapper } from './BasketCard/BasketCardStyle'
 import { BasketSummary } from './BasketSummary/BasketSummary'
+import { getSelectedCondition } from 'redux/reducers/dataStore/dataStore.selectors'
 
 /**
  *
@@ -50,7 +51,37 @@ const CardBasketPage: FC<BasketPageProps> = ({
 }) => {
   const dispatch = useDispatch()
 
+  const selectedCondition = useSelector(getSelectedCondition)
+
+  let multipleContractLengths = 1
+  let ultimateSelected = 0
+
+  if (item.id === 'ITEM_1') multipleContractLengths = 0
+
+  if (selectedCondition === 4 && item.id === 'ITEM_2')
+    multipleContractLengths = 0
+
+  if (item.title.includes('Ultimate')) ultimateSelected = 1
+
+  if (
+    selectedCondition === 6 &&
+    (item.id == 'ITEM_1' || item.id == 'ITEM_2' || item.id == 'ITEM_3')
+  )
+    ultimateSelected = 1
+
   useEffect(() => {
+    dispatch(
+      addOutput({
+        key: OutputTypes.cardHasMultipleContractLengths,
+        value: multipleContractLengths.toString(),
+      })
+    )
+    dispatch(
+      addOutput({
+        key: OutputTypes.ultimateSelected,
+        value: ultimateSelected.toString(),
+      })
+    )
     dispatch(
       addOutput({
         key: OutputTypes.selectedAddons,
@@ -63,7 +94,7 @@ const CardBasketPage: FC<BasketPageProps> = ({
         value: addons?.map((addon) => addon.price).toString(),
       })
     )
-  }, [dispatch, addons])
+  }, [dispatch, addons, multipleContractLengths, ultimateSelected, item.id])
 
   return (
     <ThemeProvider

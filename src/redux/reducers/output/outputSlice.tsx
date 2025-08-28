@@ -23,6 +23,8 @@ export enum OutputTypes {
   cardPrice,
   addonPrice,
   contractLength,
+  cardHasMultipleContractLengths,
+  ultimateSelected,
 }
 
 interface OutputStoreType {
@@ -40,6 +42,10 @@ export const initialState: OutputStoreType = {
   [OutputTypes.numberOfItemsShown]: '0',
   [OutputTypes.pcwMoreInfoClicked]: '0',
   [OutputTypes.pcwSortedproductList]: '0',
+  [OutputTypes.selectedAddons]: '0',
+  [OutputTypes.addonPrice]: '0',
+  [OutputTypes.cardHasMultipleContractLengths]: '0',
+  [OutputTypes.ultimateSelected]: '0',
 }
 
 const outputSlice = createSlice({

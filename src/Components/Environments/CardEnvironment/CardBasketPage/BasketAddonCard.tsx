@@ -81,7 +81,7 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
                 paddingTop: '1em',
                 fontSize: '11px',
                 width: '330px',
-                textAlign: 'right',
+                textAlign: 'left',
               }}
             >
               *Your add-on subscription will renew automatically every month

@@ -84,6 +84,8 @@ export const OutputSection: FC = () => {
     outputCardPrice,
     outputContractLength,
     outputAddonPrice,
+    outputCardHasMultipleContractLengths,
+    outputUltimateSelected,
   } = useEFSData()
 
   const outputByKey = useSelector(getOutputFromKey)
@@ -95,6 +97,16 @@ export const OutputSection: FC = () => {
 
   return (
     <>
+      <OutputLine
+        varname={outputCardHasMultipleContractLengths}
+        value={outputByKey(OutputTypes.cardHasMultipleContractLengths)}
+        label="Card has multiple contract lengths"
+      />
+      <OutputLine
+        varname={outputUltimateSelected}
+        value={outputByKey(OutputTypes.ultimateSelected)}
+        label="Ultimate Selected"
+      />
       <OutputLine
         varname={outputCardPrice}
         value={outputByKey(OutputTypes.cardPrice)}
