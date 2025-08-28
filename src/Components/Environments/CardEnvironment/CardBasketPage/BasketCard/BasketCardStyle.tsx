@@ -62,7 +62,7 @@ export const BasketCardWrapper = styled.div.attrs({
   align-items: center;
   padding: 1em 0;
   margin: 1em 0;
-  max-width: 50em;
+  // max-width: 50em;
 `
 
 export const BasketCardRow = styled.div`

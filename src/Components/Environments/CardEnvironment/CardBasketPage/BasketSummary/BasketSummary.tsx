@@ -81,7 +81,7 @@ export const BasketSummary: FC<BasketSummaryProps> = ({
           width: '100%',
         }}
       >
-        <div style={{ width: '280px', textAlign: 'left' }}>
+        <div style={{ width: '330px', textAlign: 'left' }}>
           {duration === 'monthly' &&
             '*Your package subscription will renew automatically every month unless cancelled'}
           {duration === 'quarterly' &&

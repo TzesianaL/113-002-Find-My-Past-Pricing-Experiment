@@ -70,15 +70,23 @@ const BasketAddonCard: FC<BasketAddonCardProps> = ({
           </div>
           <div
             style={{
-              padding: '0 1em',
-              paddingTop: '1em',
-              fontSize: '11px',
+              width: '100%',
               display: 'flex',
               justifyContent: 'flex-end',
             }}
           >
-            *Your add-on subscription will renew automatically every month
-            unless cancelled
+            <div
+              style={{
+                padding: '0 1em',
+                paddingTop: '1em',
+                fontSize: '11px',
+                width: '330px',
+                textAlign: 'right',
+              }}
+            >
+              *Your add-on subscription will renew automatically every month
+              unless cancelled
+            </div>
           </div>
         </>
       )}
