@@ -69,6 +69,7 @@ const Card: FC<CardProps> = ({
   id,
   isSelected = false,
 }) => {
+  const dispatch = useDispatch()
   const [isFeaturesExpanded, setIsFeaturesExpanded] = useState(true)
 
   const selectedCondition = useSelector(getSelectedCondition)

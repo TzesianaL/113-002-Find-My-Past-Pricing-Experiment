@@ -36,6 +36,9 @@ const BasketScreen: FC = () => {
     dispatch(addOutput({ key: OutputTypes.emptyBasket, value: 'true' }))
     dispatch(addOutput({ key: OutputTypes.selectedItemID, value: '0' }))
     dispatch(addOutput({ key: OutputTypes.selectedAddons, value: '0' }))
+    dispatch(addOutput({ key: OutputTypes.addonPrice, value: '0' }))
+    dispatch(addOutput({ key: OutputTypes.cardPrice, value: '0' }))
+    dispatch(addOutput({ key: OutputTypes.contractLength, value: '0' }))
     history.push('/storePage')
   }
 

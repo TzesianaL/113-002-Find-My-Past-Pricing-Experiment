@@ -57,6 +57,12 @@ const CardBasketPage: FC<BasketPageProps> = ({
         value: addons?.map((addon) => addon.id).toString(),
       })
     )
+    dispatch(
+      addOutput({
+        key: OutputTypes.addonPrice,
+        value: addons?.map((addon) => addon.price).toString(),
+      })
+    )
   }, [dispatch, addons])
 
   return (

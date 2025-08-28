@@ -20,6 +20,9 @@ export enum OutputTypes {
   speedBoost,
   totalMonthlyPayment,
   bundle,
+  cardPrice,
+  addonPrice,
+  contractLength,
 }
 
 interface OutputStoreType {

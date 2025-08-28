@@ -54,6 +54,8 @@ const StoreScreen: FC = () => {
     dispatch(addDurationToBasket(duration))
     dispatch(addMonthlyPriceToBasket(monthlyPrice))
     dispatch(addOutput({ key: OutputTypes.selectedItemID, value: id }))
+    dispatch(addOutput({ key: OutputTypes.contractLength, value: duration }))
+    dispatch(addOutput({ key: OutputTypes.cardPrice, value: price.toString() }))
     history.push('/addOnPage')
   }
 
